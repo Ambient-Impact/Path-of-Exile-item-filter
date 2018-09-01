@@ -1,0 +1,150 @@
+# Highlight flasks that might be worthwhile for the Glassblower's Bauble vendor
+# recipe.
+Show
+	BaseType		Flask
+	Quality			>= 10
+	SetBorderColor	100 100 100 255
+
+# Highlight any items with 20% quality. These can be sold to a vendor for one of
+# the quality upgrade orbs.
+Show
+	Quality			20
+	Rarity			Normal
+	SetBorderColor	100 100 100 255
+
+# Highlight tri-colour linked items. These can be sold for a Chromatic Orb.
+Show
+	SocketGroup		RGB
+	SetBorderColor	100 100 100 255
+
+# Highlight six socket items. These can be sold to a vendor for 7 Jeweler's
+# Orbs.
+Show
+	Sockets 6
+	SetBorderColor	255 255 255 255
+
+# Highlight 5-links in case it's a worthwhile one.
+Show
+	LinkedSockets	>= 5
+	SetBorderColor	100 100 100 255
+
+# Cartographer's Chisel recipe. A 20% quality hammer plus a map sold to a vendor
+# gives you a chisel.
+Show
+	BaseType		"Stone Hammer" "Rock Breaker" "Gavel"
+	Rarity			Normal
+	SetBorderColor	100 100 100 255
+
+# New base types added in 2.4.
+Show
+	BaseType		"Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+	SetBorderColor	254 128 222 255
+
+# Breach splinters and blessings.
+Show
+	BaseType 		"Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula" "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
+	SetBorderColor	255 10 10
+
+# Orb of Alchemy recipe items. Edit as needed.
+#Show
+	#BaseType		"Sorcerer Gloves"
+	#Rarity			Normal
+	#SetBorderColor	255 200 0
+
+# Chaos recipe items.
+Show
+	ItemLevel		>= 60
+	ItemLevel		<= 74
+	Rarity			Rare
+	SetBorderColor	255 200 0
+
+# Regal recipe items.
+Show
+	ItemLevel		>= 75
+	Rarity			Rare
+	SetBorderColor	30 144 255
+
+# Shaper and Elder items.
+Show
+	Rarity			<= Rare
+	ShaperItem		True
+	ElderItem		True
+	SetBorderColor	66 244 152 255
+
+# Shaper calls out rarer orbs for you. :) Sadly, we have to specify the border
+# here as well, as the border around all orbs doesn't get applied lower down. :(
+# https://pathofexile.gamepedia.com/Item_filter_guide#Actions
+# https://www.pathofexile.com/forum/view-thread/1930848
+Show
+	BaseType		"Orb of Alchemy"
+	PlayAlertSound	ShAlchemy		300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Blessed Orb"
+	PlayAlertSound	ShBlessed		300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Chaos Orb"
+	PlayAlertSound	ShChaos			300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Divine Orb"
+	PlayAlertSound	ShDivine		300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Exalted Orb"
+	PlayAlertSound	ShExalted		300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Orb of Fusing"
+	PlayAlertSound	ShFusing		300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Regal Orb"
+	PlayAlertSound	ShRegal			300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Vaal Orb"
+	PlayAlertSound	ShVaal			300
+	SetBorderColor	170 158 120
+Show
+	BaseType		"Mirror of Kalandra"
+	PlayAlertSound	ShMirror		300
+	SetBorderColor	170 158 120
+
+# Highlight all jewels.
+Show
+	Class Jewel
+	SetBorderColor	208 32 144
+
+# Add a border around all currency items, except scrolls.
+Show
+	BaseType		"Scroll of Wisdom" "Portal Scroll"
+	SetBorderColor	0 0 0 0
+Show
+	Class			Currency
+	SetBorderColor	170 158 120
+
+# Add a border around rare skill gems
+Show
+	BaseType		Portal "Detonate Mines" Empower Enlighten Enhance
+	SetBorderColor	27 162 155
+
+# Shaped maps.
+Show
+	Class 			Maps
+	ShapedMap		True
+	SetBorderColor	229 65 244 255
+
+
+# Always show these items.
+Show
+	Class			"Active Skill Gems" "Support Skill Gems" Maps "Map Fragments" "Labyrinth Map Item" "Pantheon Soul" Piece Card "Utility Flasks"
+Show
+	Class			Amulet Ring Belt
+Show
+	BaseType		"Eternal Life Flask" 
+
+# Hide all normal and magic items not caught by any of the above.
+Hide
+	Rarity			Normal Magic
