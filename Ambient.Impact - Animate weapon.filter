@@ -134,6 +134,7 @@ Show
 Show
 	Class 			Maps
 	ShapedMap		True
+	# Pink border.
 	SetBorderColor	229 65 244 255
 
 

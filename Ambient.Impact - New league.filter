@@ -112,6 +112,12 @@ Show
 	BaseType		Portal Empower Enlighten Enhance
 	SetBorderColor	27 162 155
 
+# Shaped maps.
+Show
+	Class 			Maps
+	ShapedMap		True
+	# Pink border.
+	SetBorderColor	229 65 244 255
 
 # Always show these items.
 Show
