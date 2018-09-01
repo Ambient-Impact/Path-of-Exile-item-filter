@@ -103,6 +103,10 @@ Show
 Show
 	BaseType		"Scroll of Wisdom" "Portal Scroll"
 	SetBorderColor	0 0 0 0
+# Labyrinth items get their own green-ish border.
+Show
+	Class			Labyrinth
+	SetBorderColor	122 219 137 255
 Show
 	Class			Currency
 	SetBorderColor	170 158 120
@@ -118,6 +122,13 @@ Show
 	ShapedMap		True
 	# Pink border.
 	SetBorderColor	229 65 244 255
+
+# Divine Vessels.
+Show
+	BaseType 		"Divine Vessel"
+	# Orange border.
+	SetBorderColor	255 150 0 255
+
 
 # Always show these items.
 Show
