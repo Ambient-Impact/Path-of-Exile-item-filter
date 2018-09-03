@@ -4,6 +4,7 @@ Show
 	BaseType		Flask
 	Quality			>= 10
 	SetBorderColor	100 100 100 255
+	PlayEffect		White Temp
 
 # Highlight any items with 20% quality. These can be sold to a vendor for one of
 # the quality upgrade orbs.
@@ -11,22 +12,26 @@ Show
 	Quality			20
 	Rarity			Normal
 	SetBorderColor	100 100 100 255
+	PlayEffect		White Temp
 
 # Highlight tri-colour linked items. These can be sold for a Chromatic Orb.
 Show
 	SocketGroup		RGB
 	SetBorderColor	100 100 100 255
+	PlayEffect		White Temp
 
 # Highlight six socket items. These can be sold to a vendor for 7 Jeweler's
 # Orbs.
 Show
 	Sockets 6
 	SetBorderColor	255 255 255 255
+	PlayEffect		White Temp
 
 # Highlight 5-links in case it's a worthwhile one.
 Show
 	LinkedSockets	>= 5
 	SetBorderColor	100 100 100 255
+	PlayEffect		White Temp
 
 # Cartographer's Chisel recipe. A 20% quality hammer plus a map sold to a vendor
 # gives you a chisel.
@@ -34,16 +39,20 @@ Show
 	BaseType		"Stone Hammer" "Rock Breaker" "Gavel"
 	Rarity			Normal
 	SetBorderColor	100 100 100 255
+	PlayEffect		White Temp
 
 # New base types added in 2.4.
 Show
 	BaseType		"Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+	# Light pink.
 	SetBorderColor	254 128 222 255
+	PlayEffect		Red Temp
 
 # Breach splinters and blessings.
 Show
 	BaseType 		"Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula" "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
 	SetBorderColor	255 10 10
+	PlayEffect		Red
 
 # Chaos recipe items.
 Show
@@ -51,53 +60,91 @@ Show
 	ItemLevel		<= 74
 	Rarity			Rare
 	SetBorderColor	255 200 0
+	PlayEffect		Yellow Temp
 
 # Regal recipe items.
 Show
 	ItemLevel		>= 75
 	Rarity			Rare
 	SetBorderColor	30 144 255
+	PlayEffect		Yellow Temp
 
-# Shaper calls out rarer orbs for you. :)
+# Shaper and Elder items.
+Show
+	Rarity			<= Rare
+	ShaperItem		True
+	ElderItem		True
+	SetBorderColor	66 244 152 255
+	PlayEffect		Yellow
+
+# Highlight all jewels.
+Show
+	Class Jewel
+	# Pink.
+	SetBorderColor	208 32 144
+	PlayEffect		Red Temp
+
+# Shaper calls out valuable orbs for you. Sadly, we have to specify all the
+# options here as well, as item filter rules are all or nothing. :|
 # https://pathofexile.gamepedia.com/Item_filter_guide#Actions
 # https://www.pathofexile.com/forum/view-thread/1930848
 Show
 	BaseType		"Orb of Alchemy"
-	PlayAlertSound	ShAlchemy
+	PlayAlertSound	ShAlchemy		300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Blessed Orb"
-	PlayAlertSound	ShBlessed
+	PlayAlertSound	ShBlessed		300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Chaos Orb"
-	PlayAlertSound	ShChaos
+	PlayAlertSound	ShChaos			300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Divine Orb"
-	PlayAlertSound	ShDivine
+	PlayAlertSound	ShDivine		300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Exalted Orb"
-	PlayAlertSound	ShExalted
+	PlayAlertSound	ShExalted		300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Orb of Fusing"
-	PlayAlertSound	ShFusing
+	PlayAlertSound	ShFusing		300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Regal Orb"
-	PlayAlertSound	ShRegal
+	PlayAlertSound	ShRegal			300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 Show
 	BaseType		"Vaal Orb"
-	PlayAlertSound	ShVaal
+	PlayAlertSound	ShVaal			300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
+# As if.
 Show
 	BaseType		"Mirror of Kalandra"
-	PlayAlertSound	ShMirror
+	PlayAlertSound	ShMirror		300
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
+
+# These have persistent item beams.
+Show
+	BaseType		Essence "Gemcutter's Prism" "Orb of Annulment" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring"
+	SetBorderColor	170 158 120
+	PlayEffect		Brown
 
 # Highlight flasks with a pale green border. This is useful for new leagues.
 Show
 	BaseType		 Flask
 	SetBorderColor	161 212 144
-
-# Highlight all jewels.
-Show
-	Class Jewel
-	SetBorderColor	208 32 144
 
 # Add a border around all currency items, except scrolls.
 Show
@@ -107,14 +154,18 @@ Show
 Show
 	Class			Labyrinth
 	SetBorderColor	122 219 137 255
+	PlayEffect		Green
+# Most currency get a border and a brief item beam when they drop.
 Show
 	Class			Currency
 	SetBorderColor	170 158 120
+	PlayEffect		Brown	Temp
 
 # Add a border around rare skill gems
 Show
-	BaseType		Portal Empower Enlighten Enhance
+	BaseType		Portal "Detonate Mines" Empower Enlighten Enhance
 	SetBorderColor	27 162 155
+	PlayEffect		Green
 
 # Shaped maps.
 Show
@@ -122,16 +173,27 @@ Show
 	ShapedMap		True
 	# Pink border.
 	SetBorderColor	229 65 244 255
+	PlayEffect		White
+
+# All maps.
+Show
+	Class			Maps
+	SetBorderColor	255 255 255 255
+	PlayEffect		White
 
 # Divine Vessels.
 Show
 	BaseType 		"Divine Vessel"
 	# Orange border.
 	SetBorderColor	255 150 0 255
+	PlayEffect		Red
 
 
-# Always show these items.
+# Unique items get a persistent item beam.
 Show
-	Class			"Active Skill Gems" "Support Skill Gems" Maps "Map Fragments" "Labyrinth Map Item" "Pantheon Soul" Piece Card "Utility Flasks"
+	Rarity			Unique
+	PlayEffect		Brown
+# Rare items get a brief item beam on drop.
 Show
-	BaseType		"Eternal Life Flask" 
+	Rarity			Rare
+	PlayEffect		Yellow Temp
