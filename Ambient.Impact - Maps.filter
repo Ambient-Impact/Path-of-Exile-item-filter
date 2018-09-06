@@ -210,7 +210,7 @@ Show
 
 # Always show these items.
 Show
-	Class			"Active Skill Gems" "Support Skill Gems" Maps "Map Fragments" "Labyrinth Map Item" "Pantheon Soul" Piece Card "Utility Flasks"
+	Class			Gems Maps "Map Fragments" "Labyrinth Map Item" "Pantheon Soul" Piece Card "Utility Flasks"
 Show
 	Class			Amulet Ring Belt
 Show
