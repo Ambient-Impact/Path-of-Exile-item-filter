@@ -162,11 +162,19 @@ Show
 	SetBorderColor	170 158 120
 	PlayEffect		Brown	Temp
 
-# Add a border around rare skill gems
+# Add a border and persistent item beam for rare skill gems.
 Show
 	BaseType		Portal "Detonate Mines" Empower Enlighten Enhance
 	SetBorderColor	27 162 155
 	PlayEffect		Green
+# Add a grey border and brief item beam on drop for gems with any quality.
+# Selling a bunch of these that total in 40% quality to a vendor gets you one
+# Gemcutter's Prism.
+Show
+	Class			Gems
+	Quality			>= 1
+	SetBorderColor	150 150 150 255
+	PlayEffect		Green Temp
 
 # Shaped maps.
 Show
