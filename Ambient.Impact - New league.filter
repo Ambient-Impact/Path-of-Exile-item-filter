@@ -141,11 +141,6 @@ Show
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
 
-# Highlight flasks with a pale green border. This is useful for new leagues.
-Show
-	BaseType		 Flask
-	SetBorderColor	161 212 144
-
 # Add a border around all currency items, except scrolls.
 Show
 	BaseType		"Scroll of Wisdom" "Portal Scroll"
@@ -205,3 +200,20 @@ Show
 Show
 	Rarity			Rare
 	PlayEffect		Yellow Temp
+
+
+# ------------------------------------------------------------------------------
+# New league stuff past here.
+# ------------------------------------------------------------------------------
+
+# Highlight flasks with a pale green border.
+Show
+	BaseType		Flask
+	SetBorderColor	161 212 144
+
+# Highlight weapons and armour above 5% quality for their respective recipes.
+Show
+	Class			Dagger Wand "Hand" Bow Stave Sceptre Gloves Boots Armours Helmets Shields
+	Quality			>= 5
+	SetBorderColor	100 100 100 255
+	PlayEffect		White Temp
