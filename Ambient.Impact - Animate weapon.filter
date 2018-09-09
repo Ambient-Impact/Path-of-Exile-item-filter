@@ -141,8 +141,10 @@ Show
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
 
-# These have persistent item beams.
+# These have persistent item beams. The class is necessary to avoid false
+# positives with the Essence Drain gem.
 Show
+	Class			Currency
 	BaseType		Essence "Gemcutter's Prism" "Orb of Annulment" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring"
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
