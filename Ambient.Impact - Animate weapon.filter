@@ -145,7 +145,7 @@ Show
 # positives with the Essence Drain gem.
 Show
 	Class			Currency
-	BaseType		Essence "Gemcutter's Prism" "Orb of Annulment" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring"
+	BaseType		Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring"
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
 
