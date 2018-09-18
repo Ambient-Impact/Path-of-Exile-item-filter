@@ -53,6 +53,7 @@ Show
 	BaseType 		"Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula" "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
 	SetBorderColor	255 10 10
 	PlayEffect		Red
+	MinimapIcon		0 Red Square
 
 # Orb of Alchemy recipe items. Edit as needed.
 #Show
@@ -82,6 +83,7 @@ Show
 	ElderItem		True
 	SetBorderColor	66 244 152 255
 	PlayEffect		Yellow
+	MinimapIcon		2 Yellow Diamond
 
 # Highlight all jewels.
 Show
@@ -99,47 +101,56 @@ Show
 	PlayAlertSound	ShAlchemy		300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		2 Yellow Circle
 Show
 	BaseType		"Blessed Orb"
 	PlayAlertSound	ShBlessed		300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		1 Yellow Circle
 Show
 	BaseType		"Chaos Orb"
 	PlayAlertSound	ShChaos			300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		2 Yellow Circle
 Show
 	BaseType		"Divine Orb"
 	PlayAlertSound	ShDivine		300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		0 Yellow Circle
 Show
 	BaseType		"Exalted Orb"
 	PlayAlertSound	ShExalted		300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		0 Yellow Circle
 Show
 	BaseType		"Orb of Fusing"
 	PlayAlertSound	ShFusing		300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		2 Yellow Circle
 Show
 	BaseType		"Regal Orb"
 	PlayAlertSound	ShRegal			300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		2 Yellow Circle
 Show
 	BaseType		"Vaal Orb"
 	PlayAlertSound	ShVaal			300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		2 Yellow Circle
 # As if.
 Show
 	BaseType		"Mirror of Kalandra"
 	PlayAlertSound	ShMirror		300
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		0 Yellow Circle
 
 # These have persistent item beams. The class is necessary to avoid false
 # positives with the Essence Drain gem.
@@ -148,6 +159,7 @@ Show
 	BaseType		Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring"
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
+	MinimapIcon		2 Yellow Circle
 
 # Add a border around all currency items, except scrolls.
 Show
@@ -158,6 +170,7 @@ Show
 	Class			Labyrinth
 	SetBorderColor	122 219 137 255
 	PlayEffect		Green
+	MinimapIcon		0 Green Star
 # Most currency get a border and a brief item beam when they drop.
 Show
 	Class			Currency
@@ -169,6 +182,7 @@ Show
 	BaseType		Portal "Detonate Mines" Empower Enlighten Enhance
 	SetBorderColor	27 162 155
 	PlayEffect		Green
+	MinimapIcon		0 Green Hexagon
 # Add a grey border and brief item beam on drop for gems with any quality.
 # Selling a bunch of these that total in 40% quality to a vendor gets you one
 # Gemcutter's Prism.
@@ -177,6 +191,7 @@ Show
 	Quality			>= 1
 	SetBorderColor	150 150 150 255
 	PlayEffect		Green Temp
+	MinimapIcon		2 Green Hexagon
 
 # Shaped maps.
 Show
@@ -185,12 +200,14 @@ Show
 	# Pink border.
 	SetBorderColor	229 65 244 255
 	PlayEffect		White
+	MinimapIcon		2 White Square
 
 # All maps.
 Show
 	Class			Maps
 	SetBorderColor	255 255 255 255
 	PlayEffect		White
+	MinimapIcon		2 White Square
 
 # Divine Vessels.
 Show
@@ -198,12 +215,14 @@ Show
 	# Orange border.
 	SetBorderColor	255 150 0 255
 	PlayEffect		Red
+	MinimapIcon		0 Red Star
 
 
 # Unique items get a persistent item beam.
 Show
 	Rarity			Unique
 	PlayEffect		Brown
+	MinimapIcon		0 Brown Triangle
 # Rare items get a brief item beam on drop.
 Show
 	Rarity			Rare
