@@ -168,16 +168,18 @@ Show
 	PlayEffect		Yellow
 	MinimapIcon		0 Yellow Circle
 
-# Add a border around all currency items, except scrolls.
+# Remove the border colour for scrolls, as they're really common.
 Show
 	BaseType		"Scroll of Wisdom" "Portal Scroll"
 	SetBorderColor	0 0 0 0
+
 # Labyrinth items get their own green-ish border.
 Show
 	Class			Labyrinth
 	SetBorderColor	122 219 137 255
 	PlayEffect		Green
 	MinimapIcon		0 Green Star
+
 # Most currency get a border and a brief item beam when they drop.
 Show
 	Class			Currency
@@ -190,6 +192,7 @@ Show
 	SetBorderColor	27 162 155
 	PlayEffect		Green
 	MinimapIcon		0 Green Hexagon
+
 # Add a grey border and brief item beam on drop for gems with any quality.
 # Selling a bunch of these that total in 40% quality to a vendor gets you one
 # Gemcutter's Prism.
