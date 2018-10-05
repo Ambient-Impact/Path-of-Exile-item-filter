@@ -55,6 +55,14 @@ Show
 	PlayEffect		Red
 	MinimapIcon		0 Red Square
 
+# Utility flasks get highlighted in blue. This is useful for new leagues and
+# just in general.
+Show
+	Class			"Utility Flasks"
+	SetBorderColor	30 144 255
+	PlayEffect		Blue
+	MinimapIcon		2 Blue Circle
+
 # Orb of Alchemy recipe items. Edit as needed.
 #Show
 	#BaseType		"Sorcerer Gloves"
@@ -244,7 +252,7 @@ Show
 
 # Always show these items.
 Show
-	Class			Gems Maps "Map Fragments" "Labyrinth Map Item" "Pantheon Soul" Piece Card "Utility Flasks"
+	Class			Gems Maps "Map Fragments" "Labyrinth Map Item" "Pantheon Soul" Piece Card
 Show
 	Class			Amulet Ring Belt
 Show
