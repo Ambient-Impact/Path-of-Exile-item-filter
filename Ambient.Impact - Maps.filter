@@ -249,6 +249,12 @@ Show
 	Rarity			Rare
 	PlayEffect		Yellow Temp
 	
+# Fishing rods because why not?
+Show
+	Class			"Fishing Rods"
+	# Purple from this list:
+	# https://pathofexile.gamepedia.com/Item_filter_guide#Color_Options
+	SetBorderColor	136 136 255 255
 
 # Always show these items.
 Show
