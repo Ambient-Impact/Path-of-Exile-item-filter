@@ -44,6 +44,7 @@ Show
 # Base items useful for high level crafting get a lavender colour.
 Show
 BaseType		"Titan Gauntlets" "Vaal Gauntlets" "Stealth Gloves" "Slink Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Mind Cage" "Hubris Circlet" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Widowsilk Robe" "Vaal Regalia" "Sacrificial Garb"
+	Rarity			Normal
 	SetBorderColor	192 128 254 255
 	PlayEffect		White Temp
 	# MinimapIcon		2 White Circle
