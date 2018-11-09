@@ -68,8 +68,8 @@ Show
 Show
 	Class			"Utility Flasks"
 	SetBorderColor	30 144 255
-	PlayEffect		Blue
-	MinimapIcon		2 Blue Circle
+	# PlayEffect		Blue
+	# MinimapIcon		2 Blue Circle
 
 # Chaos recipe items.
 Show
