@@ -223,13 +223,13 @@ Show
 	MinimapIcon		2 Green Hexagon
 
 # Shaped maps.
-Show
-	Class 			Maps
-	ShapedMap		True
-	# Pink border.
-	SetBorderColor	229 65 244 255
-	PlayEffect		White
-	MinimapIcon		2 White Square
+# Show
+# 	Class 			Maps
+# 	ShapedMap		True
+# 	# Pink border.
+# 	SetBorderColor	229 65 244 255
+# 	PlayEffect		White
+# 	MinimapIcon		2 White Square
 
 # All maps.
 Show
