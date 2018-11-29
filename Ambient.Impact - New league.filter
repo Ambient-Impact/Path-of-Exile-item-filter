@@ -6,11 +6,13 @@ Show
 	SetBorderColor	100 100 100 255
 	PlayEffect		White Temp
 
-# Highlight any items with 20% quality. These can be sold to a vendor for one of
-# the quality upgrade orbs.
+# Highlight some base types with 20% quality. These can be sold to a vendor for
+# one of the quality upgrade orbs. This is intentionally restricted so as to not
+# catch 20% maps.
 Show
 	Quality			20
 	Rarity			Normal
+	BaseType		Flask Weapon Armour Shield
 	SetBorderColor	100 100 100 255
 	PlayEffect		White Temp
 
