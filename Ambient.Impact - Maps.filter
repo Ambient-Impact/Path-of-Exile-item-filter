@@ -79,7 +79,8 @@ Show
 	Class Jewel
 	# Red.
 	SetBorderColor	255 10 10
-	PlayEffect		Red Temp
+	PlayEffect		Red
+	MinimapIcon		2 Red Hexagon
 
 # Chaos recipe items.
 Show
