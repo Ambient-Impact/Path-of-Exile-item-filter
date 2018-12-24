@@ -79,8 +79,8 @@ Show
 # precedence.
 Show
 	Class Jewel
-	# Pink.
-	SetBorderColor	208 32 144 255
+	# Red.
+	SetBorderColor	255 10 10
 	PlayEffect		Red Temp
 
 # Orb of Alchemy recipe items. Edit as needed.
