@@ -75,6 +75,14 @@ Show
 	# PlayEffect		Blue
 	# MinimapIcon		2 Blue Circle
 
+# Highlight all jewels. This needs to be before the rare recipe rules to take
+# precedence.
+Show
+	Class Jewel
+	# Pink.
+	SetBorderColor	208 32 144 255
+	PlayEffect		Red Temp
+
 # Orb of Alchemy recipe items. Edit as needed.
 #Show
 	#BaseType		"Sorcerer Gloves"
@@ -104,13 +112,6 @@ Show
 	SetBorderColor	66 244 152 255
 	PlayEffect		Yellow
 	MinimapIcon		2 Yellow Diamond
-
-# Highlight all jewels.
-Show
-	Class Jewel
-	# Pink.
-	SetBorderColor	208 32 144
-	PlayEffect		Red Temp
 
 # Shaper calls out valuable orbs for you. Sadly, we have to specify all the
 # options here as well, as item filter rules are all or nothing. :|
