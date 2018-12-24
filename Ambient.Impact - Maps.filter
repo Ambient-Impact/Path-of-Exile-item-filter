@@ -267,7 +267,7 @@ Show
 
 # Always show these items.
 Show
-	Class			Gems "Labyrinth Map Item" "Pantheon Soul" Piece Card
+	Class			Gems "Labyrinth Map Item" Piece Card
 Show
 	BaseType		"Eternal Life Flask" 
 
