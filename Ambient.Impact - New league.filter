@@ -72,8 +72,6 @@ Show
 Show
 	Class			"Utility Flasks"
 	SetBorderColor	30 144 255
-	# PlayEffect		Blue
-	# MinimapIcon		2 Blue Circle
 
 # Highlight all jewels. This needs to be before the rare recipe rules to take
 # precedence.
@@ -219,15 +217,6 @@ Show
 	SetBorderColor	150 150 150 255
 	PlayEffect		Green Temp
 	MinimapIcon		2 Green Hexagon
-
-# Shaped maps.
-# Show
-# 	Class 			Maps
-# 	ShapedMap		True
-# 	# Pink border.
-# 	SetBorderColor	229 65 244 255
-# 	PlayEffect		White
-# 	MinimapIcon		2 White Square
 
 # All maps.
 Show
