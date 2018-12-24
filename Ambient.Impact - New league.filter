@@ -221,9 +221,10 @@ Show
 	PlayEffect		Green Temp
 	MinimapIcon		2 Green Hexagon
 
-# All maps.
+# All maps and map fragments get persistent item beams, a white border, and a
+# large minimap icon.
 Show
-	Class			Maps
+	Class			Maps "Map Fragments"
 	SetBorderColor	255 255 255 255
 	PlayEffect		White
 	MinimapIcon		2 White Square
