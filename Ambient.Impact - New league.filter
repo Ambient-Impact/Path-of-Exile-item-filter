@@ -245,6 +245,12 @@ Show
 	PlayEffect		Red
 	MinimapIcon		0 Red Star
 
+# Divination cards get item beams and minimap icons.
+Show
+	Class			Card
+	PlayEffect		Blue
+	MinimapIcon		2 Blue Square
+
 
 # Harbinger unique item pieces get the unique persistent beams and map icons,
 # with a border matching the unique text colour to make them stand out.
