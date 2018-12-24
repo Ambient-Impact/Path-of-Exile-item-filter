@@ -82,6 +82,13 @@ Show
 	PlayEffect		Red
 	MinimapIcon		2 Red Hexagon
 
+# Fishing rods because why not?
+Show
+	Class			"Fishing Rods"
+	# Purple from this list:
+	# https://pathofexile.gamepedia.com/Item_filter_guide#Color_Options
+	SetBorderColor	136 136 255 255
+
 # All maps and map fragments get persistent item beams, a white border, and a
 # large minimap icon. This needs to be before the rare recipe rules to take
 # precedence.
@@ -255,13 +262,6 @@ Show
 Show
 	Rarity			Rare
 	PlayEffect		Yellow Temp
-
-# Fishing rods because why not?
-Show
-	Class			"Fishing Rods"
-	# Purple from this list:
-	# https://pathofexile.gamepedia.com/Item_filter_guide#Color_Options
-	SetBorderColor	136 136 255 255
 
 # Incursion items (i.e. Stones of Passage and Flashpowder Kegs) get red
 # outlines, persistent item beams, and large red hexagon map icons.
