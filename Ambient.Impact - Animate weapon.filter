@@ -240,6 +240,13 @@ Show
 	MinimapIcon		0 Red Star
 
 
+# Harbinger unique item pieces get the unique persistent beams and map icons,
+# with a border matching the unique text colour to make them stand out.
+Show
+	Class			Piece
+	PlayEffect		Brown
+	MinimapIcon		0 Brown Triangle
+	SetBorderColor	175 96 37
 # Unique items get a persistent item beam.
 Show
 	Rarity			Unique
@@ -268,7 +275,7 @@ Show
 
 # Always show these items.
 Show
-	Class			Gems "Labyrinth Map Item" Piece Card
+	Class			Gems "Labyrinth Map Item" Card
 Show
 	BaseType		"Eternal Life Flask" 
 
