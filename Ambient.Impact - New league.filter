@@ -257,13 +257,13 @@ Show
 Show
 	Class			Piece
 	PlayEffect		Brown
-	MinimapIcon		0 Brown Triangle
+	MinimapIcon		0 Brown Star
 	SetBorderColor	175 96 37
 # Unique items get a persistent item beam.
 Show
 	Rarity			Unique
 	PlayEffect		Brown
-	MinimapIcon		0 Brown Triangle
+	MinimapIcon		0 Brown Star
 # Rare items get a brief item beam on drop.
 Show
 	Rarity			Rare
