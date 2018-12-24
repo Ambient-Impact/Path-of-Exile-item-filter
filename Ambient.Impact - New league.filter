@@ -234,7 +234,7 @@ Show
 	Class			Gems
 	Quality			>= 1
 	SetBorderColor	150 150 150 255
-	PlayEffect		Green Temp
+	PlayEffect		Green
 	MinimapIcon		2 Green Hexagon
 
 # Divine Vessels.
