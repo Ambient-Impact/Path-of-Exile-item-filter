@@ -197,11 +197,13 @@ Show
 	PlayEffect		Green
 	MinimapIcon		0 Green Star
 
-# Most currency get a border and a brief item beam when they drop.
+# Most currency get a border, a brief item beam when they drop, and a small
+# minimap icon.
 Show
 	Class			Currency
 	SetBorderColor	170 158 120
 	PlayEffect		Brown	Temp
+	MinimapIcon		2 Yellow Circle
 
 # Add a border and persistent item beam for rare skill gems.
 Show
