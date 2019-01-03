@@ -89,6 +89,16 @@ Show
 	# https://pathofexile.gamepedia.com/Item_filter_guide#Color_Options
 	SetBorderColor	136 136 255 255
 
+# Divine Vessels get orange borders, persistent red item beams, and large red
+# star minimap icons. This must be before the map and map fragment rule,
+# otherwise that will apply to these.
+Show
+	BaseType 		"Divine Vessel"
+	# Orange border.
+	SetBorderColor	255 150 0 255
+	PlayEffect		Red
+	MinimapIcon		0 Red Star
+
 # All maps and map fragments get persistent item beams, a white border, and a
 # large minimap icon. This needs to be before the rare recipe rules to take
 # precedence.
@@ -236,14 +246,6 @@ Show
 	SetBorderColor	150 150 150 255
 	PlayEffect		Green
 	MinimapIcon		2 Green Hexagon
-
-# Divine Vessels.
-Show
-	BaseType 		"Divine Vessel"
-	# Orange border.
-	SetBorderColor	255 150 0 255
-	PlayEffect		Red
-	MinimapIcon		0 Red Star
 
 # Divination cards get item beams and minimap icons.
 Show
