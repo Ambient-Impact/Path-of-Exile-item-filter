@@ -98,6 +98,28 @@ Show
 	PlayEffect		Red
 	MinimapIcon		0 Red Diamond
 
+# Non-unique Stygian Vises get a green border, persistent green item beam, and
+# large green diamond minimap icon.
+Show
+	BaseType		"Stygian Vise"
+	Rarity			Normal Magic Rare
+	SetBorderColor	122 219 137 255
+	PlayEffect		Green
+	MinimapIcon		0 Green Diamond
+
+# Shaper and Elder items get red borders, persistent red item beams, and large
+# red diamond minimap icons.
+Show
+	ShaperItem		True
+	SetBorderColor	255 10 10
+	PlayEffect		Red
+	MinimapIcon		0 Red Diamond
+Show
+	ElderItem		True
+	SetBorderColor	255 10 10
+	PlayEffect		Red
+	MinimapIcon		0 Red Diamond
+
 # All maps and map fragments get persistent item beams, a white border, and a
 # large minimap icon. This needs to be before the rare recipe rules to take
 # precedence.
