@@ -107,6 +107,14 @@ Show
 	PlayEffect		Green
 	MinimapIcon		0 Green Diamond
 
+# Breach rings get red borders, persistent red item beams, and large red circle
+# minimap icons.
+Show
+	BaseType		"Breach Ring"
+	SetBorderColor	255 10 10
+	PlayEffect		Red
+	MinimapIcon		0 Red Circle
+
 # Shaper and Elder items get red borders, persistent red item beams, and large
 # red diamond minimap icons.
 Show
