@@ -255,6 +255,13 @@ Show
 	BaseType		"Scroll of Wisdom" "Portal Scroll"
 	SetBorderColor	0 0 0 0
 
+# Remove the border for scroll fragments and make their text colour partially
+# transparent to de-emphasize them even further than whole scrolls.
+Show
+	BaseType		"Scroll Fragment"
+	SetTextColor	170 158 120 180
+	SetBorderColor	0 0 0 0
+
 # Labyrinth items get their own green-ish border.
 Show
 	Class			Labyrinth
