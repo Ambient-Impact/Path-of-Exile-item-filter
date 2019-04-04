@@ -138,6 +138,14 @@ Show
 	PlayEffect		Red
 	MinimapIcon		0 Red Diamond
 
+# Scarabs get yellow borders, persistent yellow item beams, and yellow square
+# minimap icons.
+Show
+	BaseType		Scarab
+	SetBorderColor	255 200 0
+	PlayEffect		Yellow
+	MinimapIcon		2 Yellow Square
+
 # All maps and map fragments get persistent item beams, a white border, and a
 # large minimap icon. This needs to be before the rare recipe rules to take
 # precedence.
