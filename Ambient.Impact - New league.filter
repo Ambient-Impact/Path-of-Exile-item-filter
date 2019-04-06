@@ -292,7 +292,7 @@ Show
 
 # Add a border and persistent item beam for rare skill gems.
 Show
-  BaseType        Portal "Detonate Mines" Empower Enlighten Enhance
+  BaseType        Portal Empower Enlighten Enhance
   SetBorderColor  27 162 155
   PlayEffect      Green
   MinimapIcon     0 Green Hexagon
