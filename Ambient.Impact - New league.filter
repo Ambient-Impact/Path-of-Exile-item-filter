@@ -154,6 +154,7 @@ Show
 	SetBorderColor	255 255 255 255
 	PlayEffect		White
 	MinimapIcon		2 White Square
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_6veryvaluable.mp3"
 
 # Chaos recipe items.
 Show
@@ -247,6 +248,7 @@ Show
 	SetBorderColor	170 158 120
 	PlayEffect		Brown
 	MinimapIcon		2 Yellow Circle
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Yellow outlines and persistent beams for Delve fossils and resonators. The
 # class is necessary to avoid false positives with Fossilized Spirit Shields and
@@ -257,6 +259,7 @@ Show
 	SetBorderColor	252 190 5
 	PlayEffect		Yellow
 	MinimapIcon		0 Yellow Circle
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Remove the border colour for scrolls, as they're really common.
 Show
@@ -276,6 +279,7 @@ Show
 	SetBorderColor	122 219 137 255
 	PlayEffect		Green
 	MinimapIcon		0 Green Star
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Most currency get a border, a brief item beam when they drop, and a small
 # minimap icon.
@@ -284,6 +288,7 @@ Show
 	SetBorderColor	170 158 120
 	PlayEffect		Brown	Temp
 	MinimapIcon		2 Yellow Circle
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Add a border and persistent item beam for rare skill gems.
 Show
@@ -315,11 +320,13 @@ Show
 	PlayEffect		Brown
 	MinimapIcon		0 Brown Star
 	SetBorderColor	175 96 37
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_3uniques.mp3"
 # Unique items get a persistent item beam.
 Show
 	Rarity			Unique
 	PlayEffect		Brown
 	MinimapIcon		0 Brown Star
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_3uniques.mp3"
 # Rare items get a brief item beam on drop.
 Show
 	Rarity			Rare
@@ -333,6 +340,7 @@ Show
 	SetBorderColor	210 0 60
 	PlayEffect		Red
 	MinimapIcon		0 Red Hexagon
+	CustomAlertSound	"ItemFilterSounds/BexBloopers_1maybevaluable.mp3"
 
 # ------------------------------------------------------------------------------
 # New league stuff past here.
