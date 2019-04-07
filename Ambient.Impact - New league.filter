@@ -138,6 +138,15 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Items with Bestiary Aspect skills get red borders, persistent red item beams,
+# and large red minimap icons. See:
+# https://pathofexile.gamepedia.com/Aspect
+Show
+  HasExplicitMod  "Saqawal" "Farrul" "Craiceann" "Fenumus"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
 # Scarabs get yellow borders, persistent yellow item beams, and yellow square
 # minimap icons.
 Show
