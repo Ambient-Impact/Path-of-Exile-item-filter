@@ -256,7 +256,7 @@ Show
   BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard"
   SetBorderColor    170 158 120
   PlayEffect        Brown
-  MinimapIcon       2 Yellow Circle
+  MinimapIcon       1 Yellow Circle
   CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Yellow outlines and persistent beams for Delve fossils and resonators. The
