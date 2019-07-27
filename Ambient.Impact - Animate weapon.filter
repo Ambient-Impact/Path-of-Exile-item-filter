@@ -290,11 +290,11 @@ Show
   MinimapIcon       0 Green Star
   CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
 
-# Most currency get a border, a brief item beam when they drop, and a small
-# minimap icon.
+# Most currency get a faint border, a brief item beam when they drop, and a
+# small minimap icon.
 Show
   Class             Currency
-  SetBorderColor    170 158 120
+  SetBorderColor    89 83 63
   PlayEffect        Brown Temp
   MinimapIcon       2 Yellow Circle
   CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
