@@ -43,9 +43,9 @@ Show
   SetBorderColor  100 100 100 255
   PlayEffect      White Temp
 
-# New base types added in 2.4.
+# High level base types.
 Show
-  BaseType        "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+  BaseType        "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" "Convoking Wand"
   # Light pink.
   SetBorderColor  254 128 222 255
   PlayEffect      Red Temp
