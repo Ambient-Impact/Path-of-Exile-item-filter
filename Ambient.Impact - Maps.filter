@@ -168,7 +168,7 @@ Show
 # large minimap icon. This needs to be before the rare recipe rules to take
 # precedence.
 Show
-  Class     Maps    "Map Fragments"
+  Class             Maps "Map Fragments"
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       2 White Square
@@ -274,6 +274,15 @@ Show
 Show
   Class             Currency
   BaseType          Fossil Resonator
+  SetBorderColor    252 190 5
+  PlayEffect        Yellow
+  MinimapIcon       0 Yellow Circle
+  CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
+
+# Legion incubators get yellow outlines, persistent item beams, and large circle
+# minimap icons.
+Show
+  Class             Incubator
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
