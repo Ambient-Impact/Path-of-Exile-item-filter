@@ -76,6 +76,13 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Square
 
+# Legion splinters and emblems.
+Show
+  BaseType        "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter" "Timeless Eternal Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+  SetBorderColor  185 96 214
+  PlayEffect      Red
+  MinimapIcon     0 Red Square
+
 # Utility flasks get highlighted in blue. This is useful for new leagues and
 # just in general.
 Show
