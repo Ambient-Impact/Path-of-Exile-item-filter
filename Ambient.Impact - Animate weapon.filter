@@ -319,7 +319,7 @@ Show
 # small minimap icon.
 Show
   Class             Currency
-  SetBorderColor    89 83 63
+  SetBorderColor    170 158 120 150
   PlayEffect        Brown Temp
   MinimapIcon       2 Yellow Circle
   CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
