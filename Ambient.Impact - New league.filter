@@ -331,6 +331,12 @@ Show
   MinimapIcon       0 Green Star
   CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
 
+# Quest items get a persistent item beam in addition to their default minimap
+# icon and bright green label colour.
+Show
+  Class             "Quest Items"
+  PlayEffect        Green
+
 # Most currency get a faint border, a brief item beam when they drop, and a
 # small minimap icon.
 Show
