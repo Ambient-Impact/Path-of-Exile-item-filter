@@ -16,17 +16,17 @@ Show
   SetBorderColor  100 100 100 255
   PlayEffect      White Temp
 
+# Highlight six socket items. These can be sold to a vendor for 7 Jeweler's
+# Orbs.
+Show
+  Sockets         6
+  SetBorderColor  255 255 255 255
+  PlayEffect      White Temp
+
 # Highlight tri-colour linked items. These can be sold for a Chromatic Orb.
 Show
   SocketGroup     RGB
   SetBorderColor  100 100 100 255
-  PlayEffect      White Temp
-
-# Highlight six socket items. These can be sold to a vendor for 7 Jeweler's
-# Orbs.
-Show
-  Sockets 6
-  SetBorderColor  255 255 255 255
   PlayEffect      White Temp
 
 # Highlight 5-links in case it's a worthwhile one.
