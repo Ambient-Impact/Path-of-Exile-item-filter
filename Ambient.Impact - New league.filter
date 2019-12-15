@@ -147,15 +147,10 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Circle
 
-# Shaper and Elder items get red borders, persistent red item beams, and large
-# red diamond minimap icons.
+# Shaper, Elder, and Elderslayer exile items get red borders, persistent red
+# item beams, and large red diamond minimap icons.
 Show
-  ShaperItem      True
-  SetBorderColor  255 10 10
-  PlayEffect      Red
-  MinimapIcon     0 Red Diamond
-Show
-  ElderItem       True
+  HasInfluence    Shaper Elder Crusader Redeemer Hunter Warlord
   SetBorderColor  255 10 10
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
@@ -192,6 +187,13 @@ Show
 # precedence.
 Show
   Class             Maps "Map Fragments"
+  SetBorderColor    255 255 255 255
+  PlayEffect        White
+  MinimapIcon       2 White Square
+  CustomAlertSound  "ItemFilterSounds/BexBloopers_6veryvaluable.mp3"
+
+Show
+  BaseType          "Ivory Watchstone"
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       2 White Square
@@ -250,7 +252,7 @@ Show
   PlayEffect      Brown
   MinimapIcon     0 Yellow Circle
 Show
-  BaseType        "Exalted Orb"
+  BaseType        "Exalted Orb" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb"
   PlayAlertSound  ShExalted   300
   SetBorderColor  170 158 120
   PlayEffect      Brown
@@ -285,7 +287,7 @@ Show
 # positives with the Essence Drain gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb"
   SetBorderColor    170 158 120
   PlayEffect        Brown
   MinimapIcon       1 Yellow Circle
@@ -348,7 +350,7 @@ Show
 
 # Add a borders, persistent item beams, and sound effects for rare skill gems.
 Show
-  BaseType          Portal Empower Enlighten Enhance
+  BaseType          Portal Empower Enlighten Enhance Awakened
   SetBorderColor    27 162 155
   PlayEffect        Green
   MinimapIcon       0 Green Hexagon
