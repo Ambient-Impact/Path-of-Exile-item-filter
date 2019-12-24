@@ -8,7 +8,8 @@ Show
 
 # Highlight some base types with 20% quality. These can be sold to a vendor for
 # one of the quality upgrade orbs. This is intentionally restricted so as to not
-# catch 20% maps.
+# catch 20% maps. This is only present in the "New league" filter as it's not
+# very useful in the others.
 Show
   Quality         20
   Rarity          Normal
