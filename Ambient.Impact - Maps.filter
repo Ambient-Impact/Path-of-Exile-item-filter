@@ -164,6 +164,14 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Items with an enchantment get a green border, a persistent green item beam,
+# and a large green diamon minimap icon.
+Show
+  AnyEnchantment    True
+  SetBorderColor    122 219 137 255
+  PlayEffect        Green
+  MinimapIcon       0 Green Diamond
+
 # Scarabs get yellow borders, persistent yellow item beams, and yellow square
 # minimap icons.
 Show
