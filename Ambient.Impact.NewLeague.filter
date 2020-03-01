@@ -49,6 +49,17 @@ Show
   SetBorderColor  100 100 100 255
   PlayEffect      White Temp
 
+# Meta-crafting mods get light blue borders, persistent blue item beams, and
+# large blue minimap icons. Note that this has to be placed before the generic
+# high level base type rules to override them. See:
+# https://pathofexile.gamepedia.com/Crafting#Meta-crafting_modifiers
+Show
+  HasExplicitMod  "of Crafting" "of Weaponcraft" "of Spellcraft" "of Prefixes" "Suffixed"
+  # Crafted mod colour.
+  SetBorderColor  184 218 242
+  PlayEffect      Blue
+  MinimapIcon     0 Blue Diamond
+
 # High level base types.
 Show
   BaseType        "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" "Convoking Wand"
