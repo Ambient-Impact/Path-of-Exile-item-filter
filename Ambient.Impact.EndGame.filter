@@ -252,95 +252,74 @@ Show
   PlayEffect      Yellow
   MinimapIcon     2 Yellow Diamond
 
-# Shaper calls out valuable orbs for you. Sadly, we have to specify all the
-# options here as well, as item filter rules are all or nothing. :|
+# Shaper calls out valuable orbs for you.
 # https://pathofexile.gamepedia.com/Item_filter_guide#Actions
 # https://www.pathofexile.com/forum/view-thread/1930848
 Show
   BaseType        "Orb of Alchemy"
   PlayAlertSound  ShAlchemy   300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     2 Yellow Circle
+  Continue
 Show
   BaseType        "Blessed Orb"
   PlayAlertSound  ShBlessed   300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     1 Yellow Circle
+  Continue
 Show
   BaseType        "Chaos Orb"
   PlayAlertSound  ShChaos     300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     2 Yellow Circle
+  Continue
 Show
   BaseType        "Divine Orb"
   PlayAlertSound  ShDivine    300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     0 Yellow Circle
+  Continue
 Show
   BaseType        "Exalted Orb" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb"
   PlayAlertSound  ShExalted   300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     0 Yellow Circle
+  Continue
 Show
   BaseType        "Orb of Fusing"
   PlayAlertSound  ShFusing    300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     2 Yellow Circle
+  Continue
 Show
   BaseType        "Regal Orb"
   PlayAlertSound  ShRegal     300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     2 Yellow Circle
+  Continue
 Show
   BaseType        "Vaal Orb"
   PlayAlertSound  ShVaal      300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     2 Yellow Circle
-# As if.
+  Continue
 Show
-  BaseType        "Mirror of Kalandra"
+  BaseType        "Mirror of Kalandra" # As if.
   PlayAlertSound  ShMirror    300
-  SetBorderColor  170 158 120
-  PlayEffect      Brown
-  MinimapIcon     0 Yellow Circle
+  Continue
 
-# These have persistent item beams. The class is necessary to avoid false
-# positives with the Essence Drain gem.
+# Custom sound for valuable currency that don't have Shaper lines. The class is
+# necessary to avoid false positives with any other base types that contain
+# "Fossil" in their name (e.g. Fossilized Spirit Shield), and the Essence Drain
+# gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence"
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Incubator Fossil Resonator
+  CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
+  Continue
+
+# Somewhat valuable currency. These have persistent item beams and medium-sized minimap icons.
+Show
+  Class             Currency
+  BaseType          "Orb of Alchemy" "Orb of Fusing" "Regal Orb" "Vaal Orb" "Silver Coin" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" Oil
   SetBorderColor    170 158 120
   PlayEffect        Brown
   MinimapIcon       1 Yellow Circle
-  CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
 
-# Yellow outlines and persistent beams for Delve fossils and resonators. The
-# class is necessary to avoid false positives with Fossilized Spirit Shields and
-# any other base types that contain Fossil in their name
+# Large minimap icons, persistent yellow item beams, and yellow outlines for
+# these. The class is necessary to avoid false positives with any other base
+# types that contain "Fossil" in their name (e.g. Fossilized Spirit Shield), and
+# the Essence Drain gem.
 Show
   Class             Currency
-  BaseType          Fossil Resonator
+  BaseType          "Blessed Orb" "Chaos Orb" "Chaos Shard" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Incubator
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
-  CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
-
-# Legion incubators get yellow outlines, persistent item beams, and large circle
-# minimap icons.
-Show
-  Class             Incubator
-  SetBorderColor    252 190 5
-  PlayEffect        Yellow
-  MinimapIcon       0 Yellow Circle
-  CustomAlertSound  "ItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Remove the border colour for scrolls, as they're really common.
 Show
