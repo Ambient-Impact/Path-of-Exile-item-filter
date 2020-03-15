@@ -78,7 +78,7 @@ Show
   Rarity          Normal
   ItemLevel       >= 86
   SetBorderColor  14 186 255
-  PlayEffect      Blue Temp
+  PlayEffect      Cyan Temp
 Show
   BaseType        "Titan Gauntlets" "Vaal Gauntlets" "Stealth Gloves" "Slink Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Mind Cage" "Hubris Circlet" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Widowsilk Robe" "Vaal Regalia" "Pinnacle Tower Shield" "Crusader Buckler" "Imperial Buckler" "Harmonic Spirit Shield" "Titanium Spirit Shield"
   Rarity          Normal
@@ -89,7 +89,7 @@ Show
   Rarity          Normal Magic
   ItemLevel       >= 86
   SetBorderColor  14 186 255
-  PlayEffect      White Temp
+  PlayEffect      Cyan Temp
 Show
   Class           Amulet Ring Belt
   Rarity          Normal Magic
@@ -137,6 +137,8 @@ Show
   # Purple from this list:
   # https://pathofexile.gamepedia.com/Item_filter_guide#Color_Options
   SetBorderColor  136 136 255 255
+  PlayEffect      Purple
+  MinimapIcon     0 Purple Diamond
 
 # Divine Vessels get orange borders, persistent red item beams, and large red
 # diamond minimap icons. This must be before the map and map fragment rule,
@@ -144,8 +146,8 @@ Show
 Show
   BaseType        "Divine Vessel"
   SetBorderColor  255 150 0 255
-  PlayEffect      Red
-  MinimapIcon     0 Red Diamond
+  PlayEffect      Orange
+  MinimapIcon     0 Orange Diamond
 
 # Non-unique Stygian Vises get a green border, persistent green item beam, and
 # large green diamond minimap icon.
