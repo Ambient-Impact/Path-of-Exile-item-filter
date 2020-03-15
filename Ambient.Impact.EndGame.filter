@@ -49,12 +49,12 @@ Show
   PlayEffect      Blue
   MinimapIcon     0 Blue Diamond
 
-# High level base types.
+# Atlas base types.
 Show
   BaseType        "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" "Convoking Wand"
   # Light pink.
   SetBorderColor  254 128 222 255
-  PlayEffect      Red Temp
+  PlayEffect      Pink Temp
 
 # Base items useful for high level crafting are shown. Item level 83 and higher
 # is required for some of the highest numerical mods to be crafted. Note that
