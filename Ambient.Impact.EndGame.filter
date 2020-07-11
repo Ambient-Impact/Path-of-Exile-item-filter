@@ -330,12 +330,14 @@ Show
   PlayEffect  Purple
   MinimapIcon 0 Purple Circle
 
-# Remove the border colour for scrolls, as they're really common.
+# Remove the border colour for scrolls and reduce the opacity slightly on the
+# text to de-emphasize them relative to other currency.
 Show
   BaseType        "Scroll of Wisdom" "Portal Scroll"
+  SetTextColor    170 158 120 215
   SetBorderColor  0 0 0 0
 
-# Remove the border for scroll fragments and make their text colour partially
+# Remove the border for scroll fragments and make their text colour more
 # transparent to de-emphasize them even further than whole scrolls.
 Show
   BaseType        "Scroll Fragment"
