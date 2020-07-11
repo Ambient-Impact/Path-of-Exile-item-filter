@@ -254,6 +254,20 @@ Show
   PlayEffect      Yellow
   MinimapIcon     2 Yellow Diamond
 
+# Divination cards get item beams and minimap icons.
+Show
+  Class         Card
+  PlayEffect    Blue
+  MinimapIcon   2 Blue Square
+
+# Stacked decks get item beams, minimap icons, and border colours with the
+# divination card blue to make them stand out from other currency.
+Show
+  BaseType        "Stacked Deck"
+  PlayEffect      Blue
+  MinimapIcon     2 Blue Square
+  SetBorderColor  14 186 255 230
+
 # Shaper calls out valuable orbs for you.
 # https://pathofexile.gamepedia.com/Item_filter_guide#Actions
 # https://www.pathofexile.com/forum/view-thread/1930848
@@ -391,12 +405,6 @@ Show
   PlayEffect        Green
   MinimapIcon       2 Green Hexagon
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
-
-# Divination cards get item beams and minimap icons.
-Show
-  Class         Card
-  PlayEffect    Blue
-  MinimapIcon   2 Blue Square
 
 # Harbinger unique item pieces get the unique persistent beams and map icons,
 # with a border matching the unique text colour to make them stand out.
