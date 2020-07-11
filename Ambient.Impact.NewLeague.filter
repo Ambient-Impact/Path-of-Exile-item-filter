@@ -311,7 +311,7 @@ Show
 # gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Incubator Fossil Resonator Catalyst
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Incubator Fossil Resonator Catalyst Prophecy
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
   Continue
 
@@ -333,6 +333,12 @@ Show
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
+
+# Itemized prophecies get persistent, purple item beams and large purple circle map icons.
+Show
+  BaseType    Prophecy
+  PlayEffect  Purple
+  MinimapIcon 0 Purple Circle
 
 # Remove the border colour for scrolls, as they're really common.
 Show
