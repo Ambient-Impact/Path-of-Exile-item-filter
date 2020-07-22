@@ -339,7 +339,7 @@ Show
 # Somewhat valuable currency. These have persistent item beams and medium-sized minimap icons.
 Show
   Class             Currency
-  BaseType          "Orb of Alchemy" "Orb of Fusing" "Regal Orb" "Vaal Orb" "Silver Coin" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" Oil
+  BaseType          "Orb of Alchemy" "Orb of Fusing" "Regal Orb" "Vaal Orb" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" Oil
   SetBorderColor    170 158 120
   PlayEffect        Brown
   MinimapIcon       1 Yellow Circle
@@ -355,11 +355,27 @@ Show
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
 
-# Itemized prophecies get persistent, purple item beams and large purple circle map icons.
+# Itemized prophecies and silver coins get persistent, purple item beams and a
+# purple/pink border colour.
 Show
+  Class           Currency
+  BaseType        Prophecy "Silver Coin"
+  SetBorderColor  192 128 254
+  PlayEffect      Purple
+  Continue
+
+# Itemized prophecies get large purple circle map icons.
+Show
+  Class       Currency
   BaseType    Prophecy
-  PlayEffect  Purple
   MinimapIcon 0 Purple Circle
+
+# Silver coins get medium purple circle map icons.
+Show
+  Class       Currency
+  BaseType    "Silver Coin"
+  MinimapIcon 1 Purple Circle
+
 
 # Remove the border colour for scrolls and reduce the opacity slightly on the
 # text to de-emphasize them relative to other currency.
