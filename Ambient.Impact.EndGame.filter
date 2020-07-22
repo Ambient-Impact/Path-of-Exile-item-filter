@@ -275,6 +275,16 @@ Show
   MinimapIcon     2 Blue Square
   SetBorderColor  14 186 255 230
 
+# Incubators get pink item beams, large pink map icons, and pink text and
+# border colours.
+Show
+  Class             Incubator
+  SetTextColor      254 128 222 255
+  SetBorderColor    254 128 222 255
+  PlayEffect        Pink
+  MinimapIcon       0 Pink Raindrop
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+
 # Shaper calls out valuable orbs for you.
 # https://pathofexile.gamepedia.com/Item_filter_guide#Actions
 # https://www.pathofexile.com/forum/view-thread/1930848
@@ -321,7 +331,7 @@ Show
 # gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Incubator Fossil Resonator Catalyst Prophecy "Delirium Orb"
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence"Fossil Resonator Catalyst Prophecy "Delirium Orb"
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
   Continue
 
@@ -339,7 +349,7 @@ Show
 # the Essence Drain gem.
 Show
   Class             Currency
-  BaseType          "Blessed Orb" "Chaos Orb" "Chaos Shard" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Incubator Catalyst "Delirium Orb"
+  BaseType          "Blessed Orb" "Chaos Orb" "Chaos Shard" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb"
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
