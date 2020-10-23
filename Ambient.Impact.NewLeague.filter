@@ -123,11 +123,12 @@ Show
   PlayEffect      White
   MinimapIcon     0 White Kite
 
-# Utility flasks get highlighted in blue. This is useful for new leagues and
-# just in general.
+# Utility flasks get highlighted in faded blue and have temporary blue item
+# beams. Useful for new leagues or even endgame.
 Show
   Class           "Utility Flasks"
-  SetBorderColor  30 144 255
+  SetBorderColor  30 144 255 180
+  PlayEffect      Blue Temp
 
 # Highlight all jewels with a semi-transparent red outline, temporary red item
 # beams, and small red hexagon map icons. This needs to be before the rare
