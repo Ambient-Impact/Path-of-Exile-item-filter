@@ -118,14 +118,15 @@ Show
   Class           "Utility Flasks"
   SetBorderColor  30 144 255
 
-# Highlight all jewels. This needs to be before the rare recipe rules to take
-# precedence.
+# Highlight all jewels with a semi-transparent red outline, temporary red item
+# beams, and small red hexagon map icons. This needs to be before the rare
+# recipe rules to take precedence.
 Show
   Class           Jewel
-  # Red.
-  SetBorderColor  255 10 10
-  PlayEffect      Red
+  SetBorderColor  255 10 10 150
+  PlayEffect      Red Temp
   MinimapIcon     2 Red Hexagon
+
 
 # Fishing rods because why not?
 Show
