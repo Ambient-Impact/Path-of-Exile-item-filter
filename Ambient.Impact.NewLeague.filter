@@ -130,6 +130,20 @@ Show
   SetBorderColor  30 144 255 180
   PlayEffect      Blue Temp
 
+# Cluster and abyss jewels get bright red borders, persistent red item beams,
+# and big red hexagon map icons. These have to be before the generic jewel rule
+# to take precedence.
+Show
+  BaseType        "Cluster Jewel"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Hexagon
+Show
+  Class           "Abyss Jewel"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Hexagon
+
 # Highlight all jewels with a semi-transparent red outline, temporary red item
 # beams, and small red hexagon map icons. This needs to be before the rare
 # recipe rules to take precedence.
