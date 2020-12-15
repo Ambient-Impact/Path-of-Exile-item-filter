@@ -479,7 +479,7 @@ Show
   Class             "Incursion Item"
   SetBorderColor    210 0 60
   PlayEffect        Red
-  MinimapIcon       0 Red Hexagon
+  MinimapIcon       0 Red Pentagon
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
 
 # Always show these items.
