@@ -3,6 +3,23 @@ Show
   SetFontSize     38
   Continue
 
+# Harbinger unique item pieces get the unique persistent beams and map icons,
+# with a border matching the unique text colour to make them stand out.
+Show
+  Class             Piece
+  PlayEffect        Brown
+  MinimapIcon       0 Brown Star
+  SetBorderColor    175 96 37
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+# Unique items get a persistent item beam.
+Show
+  Rarity            Unique
+  PlayEffect        Brown
+  MinimapIcon       0 Brown Star
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+  # So that unique maps and jewels get caught by the generic rules for those.
+  Continue
+
 # Highlight flasks that might be worthwhile for the Glassblower's Bauble vendor
 # recipe.
 Show
@@ -453,20 +470,6 @@ Show
   MinimapIcon       2 Green Hexagon
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
 
-# Harbinger unique item pieces get the unique persistent beams and map icons,
-# with a border matching the unique text colour to make them stand out.
-Show
-  Class             Piece
-  PlayEffect        Brown
-  MinimapIcon       0 Brown Star
-  SetBorderColor    175 96 37
-  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
-# Unique items get a persistent item beam.
-Show
-  Rarity            Unique
-  PlayEffect        Brown
-  MinimapIcon       0 Brown Star
-  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
 # Rare items get a brief item beam on drop.
 Show
   Rarity      Rare
