@@ -459,7 +459,7 @@ Show
 # you one Gemcutter's Prism.
 Show
   Class             Gems
-  Quality           >= 1
+  Quality           >= 4
   SetBorderColor    150 150 150 255
   PlayEffect        Green
   MinimapIcon       2 Green Hexagon
