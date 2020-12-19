@@ -221,7 +221,7 @@ Show
   MinimapIcon     0 Red Diamond
 
 # Items with an enchantment get a green border, a persistent green item beam,
-# and a large green diamon minimap icon.
+# and a large green diamond minimap icon.
 Show
   AnyEnchantment    True
   SetBorderColor    122 219 137 255
