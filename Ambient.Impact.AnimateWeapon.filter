@@ -20,6 +20,48 @@ Show
   # So that unique maps and jewels get caught by the generic rules for those.
   Continue
 
+# Shaper, Elder, and Elderslayer items get red borders, persistent red item
+# beams, and large red diamond minimap icons.
+Show
+  HasInfluence    Shaper Elder Crusader Redeemer Hunter Warlord
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
+# Veiled items get red borders, persistent red item beams, and large red diamond
+# minimap icons. See:
+# https://www.reddit.com/r/pathofexile/comments/a3st4i/filter_information_important_information_for/
+Show
+  Identified      True
+  HasExplicitMod  "Veil"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
+# Items with Bestiary Aspect skills get red borders, persistent red item beams,
+# and large red minimap icons. See:
+# https://pathofexile.gamepedia.com/Aspect
+Show
+  HasExplicitMod  "Saqawal" "Farrul" "Craiceann" "Fenumus"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
+# Items with Incursion architect mods get red borders, persistent red item
+# beams, and large red minimap icons. See:
+# https://pathofexile.gamepedia.com/Citaqualotl,_Architect_of_the_Swarm
+# https://pathofexile.gamepedia.com/Guatelitzi,_Architect_of_Flesh
+# https://pathofexile.gamepedia.com/Matatl,_Architect_of_Fortifications
+# https://pathofexile.gamepedia.com/Puhuarte,_Architect_of_the_Forge
+# https://pathofexile.gamepedia.com/Tacati,_Architect_of_Toxins
+# https://pathofexile.gamepedia.com/Topotante,_Architect_of_Storms
+# https://pathofexile.gamepedia.com/Xopec,_Architect_of_Power
+Show
+  HasExplicitMod  "Citaqualotl's" "of Citaqualotl" "Guatelitzi's" "of Guatelitzi" "Matatl's" "of Matatl" "of Puhuarte" "Tacati's" "of Tacati" "Topotante's" "Xopec's"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
 # Highlight flasks that might be worthwhile for the Glassblower's Bauble vendor
 # recipe.
 Show
@@ -159,6 +201,13 @@ Show
   PlayEffect      Red Temp
   MinimapIcon     2 Red Hexagon
 
+# Items with an enchantment get a green border, a persistent green item beam,
+# and a large green diamond minimap icon.
+Show
+  AnyEnchantment    True
+  SetBorderColor    122 219 137 255
+  PlayEffect        Green
+  MinimapIcon       0 Green Diamond
 
 # Fishing rods because why not?
 Show
@@ -194,56 +243,6 @@ Show
   SetBorderColor  255 10 10
   PlayEffect      Red
   MinimapIcon     0 Red Circle
-
-# Shaper, Elder, and Elderslayer exile items get red borders, persistent red
-# item beams, and large red diamond minimap icons.
-Show
-  HasInfluence    Shaper Elder Crusader Redeemer Hunter Warlord
-  SetBorderColor  255 10 10
-  PlayEffect      Red
-  MinimapIcon     0 Red Diamond
-
-# Veiled items get red borders, persistent red item beams, and large red diamond
-# minimap icons. See:
-# https://www.reddit.com/r/pathofexile/comments/a3st4i/filter_information_important_information_for/
-Show
-  Identified      True
-  HasExplicitMod  "Veil"
-  SetBorderColor  255 10 10
-  PlayEffect      Red
-  MinimapIcon     0 Red Diamond
-
-# Items with Bestiary Aspect skills get red borders, persistent red item beams,
-# and large red minimap icons. See:
-# https://pathofexile.gamepedia.com/Aspect
-Show
-  HasExplicitMod  "Saqawal" "Farrul" "Craiceann" "Fenumus"
-  SetBorderColor  255 10 10
-  PlayEffect      Red
-  MinimapIcon     0 Red Diamond
-
-# Items with Incursion architect mods get red borders, persistent red item
-# beams, and large red minimap icons. See:
-# https://pathofexile.gamepedia.com/Citaqualotl,_Architect_of_the_Swarm
-# https://pathofexile.gamepedia.com/Guatelitzi,_Architect_of_Flesh
-# https://pathofexile.gamepedia.com/Matatl,_Architect_of_Fortifications
-# https://pathofexile.gamepedia.com/Puhuarte,_Architect_of_the_Forge
-# https://pathofexile.gamepedia.com/Tacati,_Architect_of_Toxins
-# https://pathofexile.gamepedia.com/Topotante,_Architect_of_Storms
-# https://pathofexile.gamepedia.com/Xopec,_Architect_of_Power
-Show
-  HasExplicitMod  "Citaqualotl's" "of Citaqualotl" "Guatelitzi's" "of Guatelitzi" "Matatl's" "of Matatl" "of Puhuarte" "Tacati's" "of Tacati" "Topotante's" "Xopec's"
-  SetBorderColor  255 10 10
-  PlayEffect      Red
-  MinimapIcon     0 Red Diamond
-
-# Items with an enchantment get a green border, a persistent green item beam,
-# and a large green diamond minimap icon.
-Show
-  AnyEnchantment    True
-  SetBorderColor    122 219 137 255
-  PlayEffect        Green
-  MinimapIcon       0 Green Diamond
 
 # Scarabs get yellow borders, persistent yellow item beams, and yellow square
 # minimap icons.
