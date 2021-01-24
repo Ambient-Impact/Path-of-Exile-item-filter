@@ -201,6 +201,14 @@ Show
   PlayEffect      Red Temp
   MinimapIcon     2 Red Hexagon
 
+# Heist contracts, blueprints, and items equipabble by heist members.
+Show
+  Class             Contract Blueprint Trinket "Heist Target" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+  SetBorderColor    210 0 60
+  PlayEffect        Red
+  MinimapIcon       0 Red Star
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+
 # Items with an enchantment get a green border, a persistent green item beam,
 # and a large green diamond minimap icon.
 Show
@@ -363,14 +371,14 @@ Show
 # gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst Prophecy "Delirium Orb"
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst Prophecy "Delirium Orb" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter"
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
   Continue
 
 # Somewhat valuable currency. These have persistent item beams and medium-sized minimap icons.
 Show
   Class             Currency
-  BaseType          "Orb of Alchemy" "Orb of Fusing" "Regal Orb" "Vaal Orb" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" Oil
+  BaseType          "Orb of Alchemy" "Orb of Fusing" "Regal Orb" "Vaal Orb" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" Oil "Rogue's Marker"
   SetBorderColor    170 158 120
   PlayEffect        Brown
   MinimapIcon       1 Yellow Circle
@@ -381,7 +389,7 @@ Show
 # the Essence Drain gem.
 Show
   Class             Currency
-  BaseType          "Blessed Orb" "Chaos Orb" "Chaos Shard" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb"
+  BaseType          "Blessed Orb" "Chaos Orb" "Chaos Shard" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter"
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
@@ -439,6 +447,11 @@ Show
 # watchstone, you can still get it from Zana.
 Show
   BaseType          Watchstone
+  PlayEffect        Green
+  MinimapIcon       0 Green Circle
+# Chromium, Platinum, and Titanium watchstones introduced in 3.13.
+Show
+  Class             "Atlas Region Upgrade Item"
   PlayEffect        Green
   MinimapIcon       0 Green Circle
 
