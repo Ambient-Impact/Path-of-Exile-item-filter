@@ -62,6 +62,18 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Fractured and synthesized items.
+Show
+  FracturedItem   True
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+Show
+  SynthesisedItem True
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
 # Highlight flasks that might be worthwhile for the Glassblower's Bauble vendor
 # recipe.
 Show
