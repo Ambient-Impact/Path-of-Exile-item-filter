@@ -283,11 +283,11 @@ Show
   PlayEffect      Yellow
   MinimapIcon     0 Yellow Square
 
-# All maps and map fragments get persistent item beams, a white border, and a
-# large minimap icon. This needs to be before the rare recipe rules to take
-# precedence.
+# All maps, map fragments, and miscellaneous map items (e.g. Maven's
+# Invitations) get persistent item beams, a white border, and a large minimap
+# icon. This needs to be before the rare recipe rules to take precedence.
 Show
-  Class             Maps "Map Fragments"
+  Class             Maps "Map Fragments" "Misc Map Items"
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       0 White Cross
