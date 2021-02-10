@@ -138,6 +138,16 @@ Show
   SetBorderColor  254 128 222 255
   PlayEffect      Pink Temp
 
+# Heist experimented base types.
+#
+# @see https://pathofexile.gamepedia.com/Experimented_base_types
+Show
+  BaseType        "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Simplex Amulet" "Astrolabe Amulet" "Cogwork Ring" "Geodesic Ring"
+  # Light pink.
+  SetBorderColor  254 128 222 255
+  PlayEffect      Pink
+  MinimapIcon     1 Pink UpsideDownHouse
+
 # Base items useful for high level crafting are shown. Item level 83 and higher
 # is required for some of the highest numerical mods to be crafted. Note that
 # item level and required level are two different things, with the former an
