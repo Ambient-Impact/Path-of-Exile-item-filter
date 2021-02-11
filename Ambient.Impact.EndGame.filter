@@ -126,6 +126,7 @@ Show
   # Light pink.
   SetBorderColor  254 128 222 255
   PlayEffect      Pink Temp
+  MinimapIcon     2 Pink UpsideDownHouse
 
 # Heist experimented base types.
 #
