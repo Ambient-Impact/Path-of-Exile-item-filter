@@ -324,6 +324,11 @@ Show
   PlayEffect      Yellow
   MinimapIcon     2 Yellow Diamond
 
+# Hide really common and/or meh divination cards.
+Hide
+  Class         Card
+  BaseType      "The Scholar" "Light and Truth"
+
 # Divination cards get item beams and minimap icons.
 Show
   Class         Card

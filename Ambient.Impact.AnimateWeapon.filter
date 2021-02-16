@@ -330,6 +330,11 @@ Show
   PlayEffect    Blue
   MinimapIcon   2 Blue Square
 
+# Hide really common and/or meh divination cards.
+Hide
+  Class         Card
+  BaseType      "The Scholar" "Light and Truth"
+
 # Stacked decks get item beams, minimap icons, and border colours with the
 # divination card blue to make them stand out from other currency.
 Show
