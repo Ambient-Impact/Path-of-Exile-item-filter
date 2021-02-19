@@ -11,6 +11,16 @@ Show
   MinimapIcon       0 Brown Star
   SetBorderColor    175 96 37
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+
+# Replica uniques.
+Show
+  Rarity            Unique
+  Replica           True
+  PlayEffect        Brown
+  MinimapIcon       0 Brown Star
+  SetBorderColor    175 96 37
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+
 # Unique items get a persistent item beam.
 Show
   Rarity            Unique
