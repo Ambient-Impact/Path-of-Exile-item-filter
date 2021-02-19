@@ -518,12 +518,30 @@ Show
   MinimapIcon       2 Yellow Circle
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
 
-# Add a borders, persistent item beams, and sound effects for rare skill gems.
+# Add a border, persistent item beams, and sound effects for rare skill gems.
 Show
   BaseType          Portal Empower Enlighten Enhance Awakened
   SetBorderColor    27 162 155
   PlayEffect        Green
   MinimapIcon       0 Green Hexagon
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
+
+# Alternate quality gems.
+Show
+  Class             Gems
+  AlternateQuality  True
+  SetBorderColor    27 162 155
+  PlayEffect        Green
+  MinimapIcon       0 Green Hexagon
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
+
+# Vaal skill gems.
+Show
+  Class             Gems
+  BaseType          Vaal
+  SetBorderColor    255 10 10 180
+  PlayEffect        Green Temp
+  MinimapIcon       2 Green Pentagon
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
 
 # Add a grey borders, a brief item beam, and sound effect for gems with any
