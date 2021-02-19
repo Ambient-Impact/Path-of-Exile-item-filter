@@ -369,7 +369,7 @@ Show
 # Hide really common and/or meh divination cards.
 Hide
   Class         Card
-  BaseType      "The Scholar" "Light and Truth"
+  BaseType      "The Scholar" "Light and Truth" "The Carrion Crow"
 
 # Stacked decks get item beams, minimap icons, and border colours with the
 # divination card blue to make them stand out from other currency.

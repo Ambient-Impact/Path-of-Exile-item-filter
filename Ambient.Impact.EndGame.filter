@@ -352,7 +352,7 @@ Show
 # Hide really common and/or meh divination cards.
 Hide
   Class         Card
-  BaseType      "The Scholar" "Light and Truth"
+  BaseType      "The Scholar" "Light and Truth" "The Carrion Crow"
 
 # Divination cards get item beams and minimap icons.
 Show
