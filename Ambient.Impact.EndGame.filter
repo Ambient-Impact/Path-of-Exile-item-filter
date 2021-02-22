@@ -303,6 +303,14 @@ Show
   MinimapIcon       0 White Cross
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
 
+# Craftable Chromium, Platinum, and Titanium watchstones introduced in 3.13.
+Show
+  Class             "Atlas Region Upgrade Item"
+  SetBorderColor    255 255 255 255
+  PlayEffect        White
+  MinimapIcon       0 White Circle
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
+
 Show
   BaseType          "Ivory Watchstone"
   SetBorderColor    255 255 255 255
@@ -500,11 +508,6 @@ Show
 # watchstone, you can still get it from Zana.
 Show
   BaseType          Watchstone
-  PlayEffect        Green
-  MinimapIcon       0 Green Circle
-# Chromium, Platinum, and Titanium watchstones introduced in 3.13.
-Show
-  Class             "Atlas Region Upgrade Item"
   PlayEffect        Green
   MinimapIcon       0 Green Circle
 
