@@ -307,7 +307,7 @@ Show
   BaseType          "Ivory Watchstone"
   SetBorderColor    255 255 255 255
   PlayEffect        White
-  MinimapIcon       0 White Diamond
+  MinimapIcon       0 White Circle
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
 
 # Hide all common base types matching the following criteria:
