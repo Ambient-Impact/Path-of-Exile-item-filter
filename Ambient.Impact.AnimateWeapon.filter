@@ -367,9 +367,11 @@ Show
   MinimapIcon   2 Blue Square
 
 # Hide really common and/or meh divination cards.
+#
+# @todo Should this have an AreaLevel condition, like >=68 ?
 Hide
   Class         Card
-  BaseType      "The Scholar" "Light and Truth" "The Carrion Crow"
+  BaseType      "The Carrion Crow" "The Inoculated" "The King's Blade" "Light and Truth" "The Scholar" "Struck by Lightning" "Thunderous Skies"
 
 # Stacked decks get item beams, minimap icons, and border colours with the
 # divination card blue to make them stand out from other currency.
