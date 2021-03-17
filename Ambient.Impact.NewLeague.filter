@@ -176,6 +176,14 @@ Show
   Rarity          Normal
   ItemLevel       >= 83
   PlayEffect      White Temp
+
+# Jewellery base types that have meh or low value implicits are hidden,
+# provided they're rare or lower rarity.
+Hide
+  BaseType        "Cloth Belt" "Studded Belt" "Coral Amulet" "Paua Amulet"
+  ItemLevel       >= 75
+  Rarity          <= Rare
+
 Show
   Class           Amulet Ring Belt
   Rarity          Normal Magic
