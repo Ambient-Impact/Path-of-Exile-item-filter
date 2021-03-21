@@ -115,6 +115,19 @@ Show
   SocketGroup     RGB
   SetBorderColor  100 100 100 255
   PlayEffect      White Temp
+  # Leveling areas are more permissive with portals.
+  Width           <= 2
+  Height          <= 3
+  AreaLevel       < 68
+Show
+  SocketGroup     RGB
+  SetBorderColor  100 100 100 255
+  PlayEffect      White Temp
+  # Maps and other endgame areas have more strict size requirements due to
+  # limited portals.
+  Width           1
+  Height          3
+  AreaLevel       >= 68
 
 # Highlight 5-links in case it's a worthwhile one.
 Show
