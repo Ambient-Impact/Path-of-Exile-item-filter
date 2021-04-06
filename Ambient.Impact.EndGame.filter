@@ -578,9 +578,8 @@ Show
   MinimapIcon       2 Green Pentagon
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
 
-# Add a grey borders, a brief item beam, and sound effect for gems with any
-# quality. Selling a bunch of these that total in 40% quality to a vendor gets
-# you one Gemcutter's Prism.
+# Gemcutter's Prism vendor recipe: selling a bunch of these that total in 40%
+# quality to a vendor gets you one Gemcutter's Prism.
 Show
   Class             Gems
   Quality           >= 4
