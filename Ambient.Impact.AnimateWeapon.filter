@@ -121,6 +121,7 @@ Show
 # Highlight 5-links in case it's a worthwhile one.
 Show
   LinkedSockets   >= 5
+  Corrupted       False
   SetBorderColor  100 100 100 255
   PlayEffect      White Temp
 
@@ -129,6 +130,7 @@ Show
 Show
   BaseType        "Stone Hammer" "Rock Breaker" "Gavel"
   Rarity          Normal
+  Corrupted       False
   SetBorderColor  100 100 100 255
   PlayEffect      White Temp
 
@@ -171,12 +173,14 @@ Show
   BaseType        "Titan Gauntlets" "Vaal Gauntlets" "Stealth Gloves" "Slink Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Mind Cage" "Hubris Circlet" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Widowsilk Robe" "Vaal Regalia" "Pinnacle Tower Shield" "Crusader Buckler" "Imperial Buckler" "Harmonic Spirit Shield" "Titanium Spirit Shield"
   Rarity          Normal
   ItemLevel       >= 86
+  Corrupted       False
   SetBorderColor  14 186 255
   PlayEffect      Cyan Temp
 Show
   BaseType        "Titan Gauntlets" "Vaal Gauntlets" "Stealth Gloves" "Slink Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Mind Cage" "Hubris Circlet" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Widowsilk Robe" "Vaal Regalia" "Pinnacle Tower Shield" "Crusader Buckler" "Imperial Buckler" "Harmonic Spirit Shield" "Titanium Spirit Shield"
   Rarity          Normal
   ItemLevel       >= 83
+  Corrupted       False
   PlayEffect      White Temp
 
 # Jewellery base types that have meh or low value implicits are hidden,
@@ -362,6 +366,7 @@ Show
   ItemLevel       >= 60
   ItemLevel       <= 74
   Rarity          Rare
+  Corrupted       False
   SetBorderColor  255 200 0
   PlayEffect      Yellow Temp
 
@@ -369,6 +374,7 @@ Show
 Show
   ItemLevel       >= 75
   Rarity          Rare
+  Corrupted       False
   SetBorderColor  30 144 255
   PlayEffect      Yellow Temp
 
