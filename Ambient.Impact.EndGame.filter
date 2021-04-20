@@ -468,14 +468,6 @@ Show
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
   Continue
 
-# Somewhat valuable currency. These have persistent item beams and medium-sized minimap icons.
-Show
-  Class             Currency
-  BaseType          "Orb of Alchemy" "Jeweller's Orb" "Orb of Fusing" "Orb of Chance" "Regal Orb" "Vaal Orb" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Orb of Binding" "Binding Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Simple Sextant" "Prime Sextant" Oil "Rogue's Marker"
-  SetBorderColor    170 158 120
-  PlayEffect        Brown
-  MinimapIcon       1 Yellow Circle
-
 # Large minimap icons, persistent yellow item beams, and yellow outlines for
 # these. The class is necessary to avoid false positives with any other base
 # types that contain "Fossil" in their name (e.g. Fossilized Spirit Shield), and
@@ -486,6 +478,14 @@ Show
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
+
+# Somewhat valuable currency. These have persistent item beams and medium-sized minimap icons.
+Show
+  Class             Currency
+  BaseType          "Orb of Alchemy" "Jeweller's Orb" "Orb of Fusing" "Orb of Chance" "Regal Orb" "Vaal Orb" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Regal Shard" "Orb of Binding" "Binding Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Simple Sextant" "Prime Sextant" Oil "Rogue's Marker"
+  SetBorderColor    170 158 120
+  PlayEffect        Brown
+  MinimapIcon       1 Yellow Circle
 
 # Itemized prophecies and silver coins get persistent, purple item beams and a
 # purple/pink border colour.
@@ -522,6 +522,15 @@ Show
   SetTextColor    170 158 120 180
   SetBorderColor  0 0 0 0
 
+# Most currency get a faint border, a brief item beam when they drop, and a
+# small minimap icon.
+Show
+  Class             Currency
+  SetBorderColor    170 158 120 150
+  PlayEffect        Brown Temp
+  MinimapIcon       2 Yellow Circle
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
+
 # Labyrinth items get their own green-ish border.
 Show
   Class             Labyrinth
@@ -542,15 +551,6 @@ Show
   BaseType          Watchstone
   PlayEffect        Green
   MinimapIcon       0 Green Circle
-
-# Most currency get a faint border, a brief item beam when they drop, and a
-# small minimap icon.
-Show
-  Class             Currency
-  SetBorderColor    170 158 120 150
-  PlayEffect        Brown Temp
-  MinimapIcon       2 Yellow Circle
-  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
 
 # Add a border, persistent item beams, and sound effects for rare skill gems.
 Show
