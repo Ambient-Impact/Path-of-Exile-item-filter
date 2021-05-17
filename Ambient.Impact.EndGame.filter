@@ -72,6 +72,13 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Delve mods.
+Show
+  HasExplicitMod "Subterranean" "of the Underground"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
 # Fractured and synthesized items.
 Show
   FracturedItem   True
