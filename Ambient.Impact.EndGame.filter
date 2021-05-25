@@ -544,9 +544,9 @@ Show
   MinimapIcon       2 Yellow Circle
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
 
-# Labyrinth items get their own green-ish border.
+# Labyrinth items.
 Show
-  Class             Labyrinth
+  Class             "Labyrinth Item" "Labyrinth Trinket"
   SetBorderColor    122 219 137 255
   PlayEffect        Green
   MinimapIcon       0 Green Star
