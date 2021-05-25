@@ -266,9 +266,15 @@ Show
   PlayEffect      Red Temp
   MinimapIcon     2 Red Hexagon
 
-# Heist contracts, blueprints, and items equipabble by heist members.
+# Heist stuff.
 Show
-  Class             Contract Blueprint Trinket "Heist Target" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+  Class             Contract Blueprint "Heist Target" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+  SetBorderColor    210 0 60
+  PlayEffect        Red
+  MinimapIcon       0 Red Star
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+Show
+  BaseType          "Thief's Trinket"
   SetBorderColor    210 0 60
   PlayEffect        Red
   MinimapIcon       0 Red Star
