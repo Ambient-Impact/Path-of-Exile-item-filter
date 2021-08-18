@@ -165,7 +165,7 @@ Show
 
 # Atlas base types.
 Show
-  BaseType        "Blue Pearl Amulet" "Marble Amulet" "Seaglass Amulet" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Iolite Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Apothecary's Gloves" "Two-Toned Boots" "Blessed Boots" "Convoking Wand" "Artillery Quiver"
+  BaseType        "Blue Pearl Amulet" "Marble Amulet" "Seaglass Amulet" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Iolite Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Apothecary's Gloves" "Two-Toned Boots" "Fugitive Boots" "Convoking Wand" "Artillery Quiver"
   # Light pink.
   SetBorderColor  254 128 222 255
   PlayEffect      Pink Temp
