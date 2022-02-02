@@ -606,7 +606,7 @@ Show
 Show
   Rarity      Rare
   PlayEffect  Yellow Temp
- 
+
 # Incursion items (i.e. Stones of Passage and Flashpowder Kegs) get red
 # outlines, persistent item beams, and large red hexagon map icons.
 # https://pathofexile.gamepedia.com/Incursion_Item
@@ -621,7 +621,7 @@ Show
 Show
   Class     Gems "Labyrinth Map Item"
 Show
-  BaseType    "Eternal Life Flask" 
+  BaseType    "Eternal Life Flask"
 
 # Animate weapon items. This is the only difference from the "Maps" item filter.
 Show
