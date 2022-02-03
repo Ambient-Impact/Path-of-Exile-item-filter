@@ -454,7 +454,7 @@ Show
   PlayAlertSound  ShBlessed   300
   Continue
 Show
-  BaseType        "Chaos Orb"
+  BaseType        "Chaos Orb" "Eldritch Chaos Orb"
   PlayAlertSound  ShChaos     300
   Continue
 Show
@@ -462,7 +462,7 @@ Show
   PlayAlertSound  ShDivine    300
   Continue
 Show
-  BaseType        "Exalted Orb" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb"
+  BaseType        "Exalted Orb" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Eldritch Exalted Orb"
   PlayAlertSound  ShExalted   300
   Continue
 Show
@@ -488,7 +488,7 @@ Show
 # gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Veiled Chaos Orb" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing"
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Eldritch Orb of Annulment" "Annulment Shard" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Veiled Chaos Orb" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing"
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
   Continue
 
@@ -498,7 +498,7 @@ Show
 # the Essence Drain gem.
 Show
   Class             Currency
-  BaseType          "Blessed Orb" "Chaos Orb" "Chaos Shard" "Veiled Chaos Orb" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Awakened Sextant" "Elevated Sextant" "Ancient Orb" "Ancient Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator "Accelerating Catalyst" "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Unstable Catalyst" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Delirium Orb" "Facetor's Lens" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing"
+  BaseType          "Blessed Orb" "Chaos Orb" "Eldritch Chaos Orb" "Chaos Shard" "Veiled Chaos Orb" "Divine Orb" "Exalted Orb" "Exalted Shard" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Eldritch Exalted Orb" "Mirror of Kalandra" "Mirror Shard" Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Eldritch Orb of Annulment" "Annulment Shard" "Awakened Sextant" "Elevated Sextant" "Ancient Orb" "Ancient Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator "Accelerating Catalyst" "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Unstable Catalyst" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil" "Delirium Orb" "Facetor's Lens" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing"
   SetBorderColor    252 190 5
   PlayEffect        Yellow
   MinimapIcon       0 Yellow Circle
