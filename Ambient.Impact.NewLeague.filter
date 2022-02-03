@@ -547,13 +547,6 @@ Show
 Show
   Class             "Quest Items"
   PlayEffect        Green
-# Quest item watchstones aren't being correctly caught by the above, so we
-# target them here. This is arguably a minor issue, as even if you miss the
-# watchstone, you can still get it from Zana.
-Show
-  BaseType          Watchstone
-  PlayEffect        Green
-  MinimapIcon       0 Green Circle
 
 # Add a border, persistent item beams, and sound effects for rare skill gems.
 Show
