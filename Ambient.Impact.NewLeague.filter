@@ -352,9 +352,9 @@ Show
   MinimapIcon       0 White Cross
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
 
-# Craftable Chromium, Platinum, and Titanium watchstones introduced in 3.13.
+# Watchstones and voidstones.
 Show
-  Class             "Atlas Region Upgrade Item"
+  Class             "Atlas Upgrade Item"
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       0 White Circle
