@@ -488,7 +488,7 @@ Show
 # gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" "Silver Coin" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Veiled Chaos Orb" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst Prophecy "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing"
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Annulment Shard" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Veiled Chaos Orb" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing"
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
   Continue
 
@@ -510,28 +510,6 @@ Show
   SetBorderColor    170 158 120
   PlayEffect        Brown
   MinimapIcon       1 Yellow Circle
-
-# Itemized prophecies and silver coins get persistent, purple item beams and a
-# purple/pink border colour.
-Show
-  Class           Currency
-  BaseType        Prophecy "Silver Coin"
-  SetBorderColor  192 128 254
-  PlayEffect      Purple
-  Continue
-
-# Itemized prophecies get large purple circle map icons.
-Show
-  Class       Currency
-  BaseType    Prophecy
-  MinimapIcon 0 Purple Circle
-
-# Silver coins get medium purple circle map icons.
-Show
-  Class       Currency
-  BaseType    "Silver Coin"
-  MinimapIcon 1 Purple Circle
-
 
 # Remove the border colour for scrolls and reduce the opacity slightly on the
 # text to de-emphasize them relative to other currency.
