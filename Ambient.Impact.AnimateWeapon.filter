@@ -89,6 +89,13 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Essence mods.
+Show
+  HasExplicitMod "Essences" "of the Essence"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
 # Fractured and synthesized items.
 Show
   FracturedItem   True
