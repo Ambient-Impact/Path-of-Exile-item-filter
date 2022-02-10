@@ -30,10 +30,20 @@ Show
   # So that unique maps and jewels get caught by the generic rules for those.
   Continue
 
-# Shaper, Elder, and Elderslayer items get red borders, persistent red item
-# beams, and large red diamond minimap icons.
+# Influenced items get red borders, persistent red item beams, and large red
+# diamond minimap icons.
 Show
   HasInfluence    Shaper Elder Crusader Redeemer Hunter Warlord
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+Show
+  HasEaterOfWorldsImplicit >= 1
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+Show
+  HasSearingExarchImplicit >= 1
   SetBorderColor  255 10 10
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
