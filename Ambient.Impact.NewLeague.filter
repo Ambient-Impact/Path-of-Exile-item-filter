@@ -308,6 +308,14 @@ Show
   MinimapIcon       0 Red Star
   CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
 
+# Expedition Logbooks.
+Show
+  Class             "Expedition Logbooks"
+  SetBorderColor    128 179 254
+  PlayEffect        Cyan
+  MinimapIcon       0 Cyan Star
+  CustomAlertSound  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+
 # Items with an enchantment get a green border, a persistent green item beam,
 # and a large green diamond minimap icon.
 Show
