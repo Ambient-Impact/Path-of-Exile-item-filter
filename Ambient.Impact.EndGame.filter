@@ -435,7 +435,7 @@ Show
 # @todo Should this have an AreaLevel condition, like >=68 ?
 Hide
   Class         Card
-  BaseType      "The Carrion Crow" "The Inoculated" "The King's Blade" "Light and Truth" "The Metalsmith's Gift" "The Scholar" "Struck by Lightning" "Thunderous Skies"
+  BaseType      "The Carrion Crow" "The Inoculated" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "The Metalsmith's Gift" "The Scholar" "Struck by Lightning" "Thunderous Skies"
 
 # Divination cards get item beams and minimap icons.
 Show
