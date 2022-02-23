@@ -180,7 +180,12 @@ Show
   PlayEffect      Blue
   MinimapIcon     0 Blue Diamond
 
-# Atlas and other endgame base types.
+# Endgame base types.
+#
+# These were Atlas base types before 3.17, after which they were reworked as
+# regular drops.
+#
+# @see https://www.poewiki.net/wiki/List_of_atlas_base_items
 Show
   BaseType        "Blue Pearl Amulet" "Marble Amulet" "Seaglass Amulet" "Unset Amulet" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Iolite Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Apothecary's Gloves" "Two-Toned Boots" "Fugitive Boots" "Convoking Wand"
   # Light pink.
