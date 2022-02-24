@@ -180,7 +180,7 @@ Show
   # Light pink.
   SetBorderColor  254 128 222 255
   PlayEffect      Pink Temp
-  MinimapIcon     2 Pink UpsideDownHouse
+  MinimapIcon     2 Pink Diamond
 
 # Heist experimented base types.
 #
@@ -190,7 +190,7 @@ Show
   # Light pink.
   SetBorderColor  254 128 222 255
   PlayEffect      Pink
-  MinimapIcon     1 Pink UpsideDownHouse
+  MinimapIcon     1 Pink Diamond
 
 # Base items useful for high level crafting are shown. Item level 83 and higher
 # is required for some of the highest numerical mods to be crafted. Note that
