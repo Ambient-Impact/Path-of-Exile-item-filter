@@ -264,6 +264,7 @@ Show
   Class           "Utility Flasks"
   SetBorderColor  30 144 255 180
   PlayEffect      Blue Temp
+  MinimapIcon     2 Blue Circle
 
 # Cluster and abyss jewels get bright red borders, persistent red item beams,
 # and big red hexagon map icons. These have to be before the generic jewel rule
