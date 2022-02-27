@@ -258,8 +258,7 @@ Show
   PlayEffect      White
   MinimapIcon     0 White Kite
 
-# Utility flasks get highlighted in faded blue and have temporary blue item
-# beams. Useful for new leagues or even endgame.
+# Utility flasks.
 Show
   Class           "Utility Flasks"
   SetBorderColor  30 144 255 180
