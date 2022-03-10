@@ -364,13 +364,12 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Circle
 
-# Scarabs get yellow borders, persistent yellow item beams, and yellow square
-# minimap icons.
+# Scarabs.
 Show
   BaseType        Scarab
   SetBorderColor  255 200 0
   PlayEffect      Yellow
-  MinimapIcon     0 Yellow Square
+  MinimapIcon     0 Yellow Cross
 
 # All maps, map fragments, and miscellaneous map items (e.g. Maven's
 # Invitations) get persistent item beams, a white border, and a large minimap
