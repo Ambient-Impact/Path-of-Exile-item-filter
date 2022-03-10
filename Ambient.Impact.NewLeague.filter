@@ -338,15 +338,6 @@ Show
   PlayEffect      Purple
   MinimapIcon     0 Purple Diamond
 
-# Divine Vessels get orange borders, persistent red item beams, and large red
-# diamond minimap icons. This must be before the map and map fragment rule,
-# otherwise that will apply to these.
-Show
-  BaseType        "Divine Vessel"
-  SetBorderColor  255 150 0 255
-  PlayEffect      Orange
-  MinimapIcon     0 Orange Diamond
-
 # Non-unique Stygian Vises get a green border, persistent green item beam, and
 # large green diamond minimap icon.
 Show
