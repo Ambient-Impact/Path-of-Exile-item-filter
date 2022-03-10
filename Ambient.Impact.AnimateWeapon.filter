@@ -199,6 +199,24 @@ Show
   PlayEffect        Cyan
   MinimapIcon       2 Cyan Diamond
 
+# Perfect roll (100%) base defenses.
+Show
+  BaseType        "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Glorious Plate" "Assassin's Garb" "Vaal Regalia" "Pinnacle Tower Shield" "Imperial Buckler" "Titanium Spirit Shield"
+  BaseDefencePercentile == 100
+  Corrupted       False
+  SetBorderColor  255 150 0 255
+  PlayEffect      Orange
+  MinimapIcon     0 Orange Diamond
+
+# Good roll (90% and higher) base defenses.
+Show
+  BaseType        "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Glorious Plate" "Assassin's Garb" "Vaal Regalia" "Pinnacle Tower Shield" "Imperial Buckler" "Titanium Spirit Shield"
+  BaseDefencePercentile  >= 90
+  Corrupted       False
+  SetBorderColor  255 150 0 125
+  PlayEffect      Orange Temp
+  MinimapIcon     2 Orange Diamond
+
 # Base items useful for high level crafting are shown. Item level 83 and higher
 # is required for some of the highest numerical mods to be crafted. Note that
 # item level and required level are two different things, with the former an
