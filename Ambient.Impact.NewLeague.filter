@@ -58,6 +58,13 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Unveiled mods, i.e. after choosing a mod from Jun.
+Show
+  HasExplicitMod  "Chosen" "of the Order"
+  SetBorderColor  255 10 10 150
+  PlayEffect      Red Temp
+  MinimapIcon     2 Red Diamond
+
 # Items with Bestiary Aspect skills get red borders, persistent red item beams,
 # and large red minimap icons. See:
 # https://pathofexile.gamepedia.com/Aspect
