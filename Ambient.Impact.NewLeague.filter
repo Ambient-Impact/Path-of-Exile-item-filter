@@ -217,10 +217,11 @@ Show
   PlayEffect        Cyan
   MinimapIcon       2 Cyan Diamond
 
-# Perfect roll (100%) base defenses.
+# Perfect roll (100%) base defenses at or above item level 83.
 Show
   BaseType        "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Glorious Plate" "Assassin's Garb" "Vaal Regalia" "Pinnacle Tower Shield" "Imperial Buckler" "Titanium Spirit Shield"
   BaseDefencePercentile == 100
+  ItemLevel       >= 83
   Corrupted       False
   SetBorderColor  255 150 0 255
   PlayEffect      Orange
