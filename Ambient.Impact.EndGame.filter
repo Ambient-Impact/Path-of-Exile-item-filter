@@ -103,6 +103,15 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Warbands mods.
+#
+# @see https://www.poewiki.net/wiki/Warband#Items
+Show
+  HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Diamond
+
 # Fractured and synthesized items.
 Show
   FracturedItem   True
