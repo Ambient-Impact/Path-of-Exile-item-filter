@@ -6,5 +6,7 @@
 # not ignore any files within it.
 !/AmbientImpactItemFilterSounds
 !/AmbientImpactItemFilterSounds/**
+!/AmbientImpactItemFilter
+!/AmbientImpactItemFilter/**
 !**/*.filter
 !/README.md
