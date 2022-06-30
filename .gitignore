@@ -1,12 +1,10 @@
 # Ignore all files and directories by default.
 **
 
-# Un-ignore all filters and related files/directories. Note that you need to
-# un-ignnore the sound directory itself in addition to any items in it for Git
-# not ignore any files within it.
-!/AmbientImpactItemFilterSounds
-!/AmbientImpactItemFilterSounds/**
+# Un-ignore our filters and related files/directories. Note that you need to
+# un-ignnore the directory itself in addition to any items in it for Git not
+# ignore any files within it.
 !/AmbientImpactItemFilter
 !/AmbientImpactItemFilter/**
-!**/*.filter
+!Ambient.Impact*.filter
 !/README.md

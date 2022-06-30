@@ -10,7 +10,7 @@ Show
   PlayEffect        Brown
   MinimapIcon       0 Brown Star
   SetBorderColor    175 96 37
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_3uniques.mp3"
 
 # Replica uniques.
 Show
@@ -19,14 +19,14 @@ Show
   PlayEffect        Brown
   MinimapIcon       0 Brown Star
   SetBorderColor    175 96 37
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_3uniques.mp3"
 
 # Unique items get a persistent item beam.
 Show
   Rarity            Unique
   PlayEffect        Brown
   MinimapIcon       0 Brown Star
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_3uniques.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_3uniques.mp3"
   # So that unique maps and jewels get caught by the generic rules for those.
   Continue
 
@@ -336,13 +336,13 @@ Show
   SetBorderColor    210 0 60
   PlayEffect        Red
   MinimapIcon       0 Red Star
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
 Show
   BaseType          "Thief's Trinket"
   SetBorderColor    210 0 60
   PlayEffect        Red
   MinimapIcon       0 Red Star
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
 
 # Expedition Logbooks.
 Show
@@ -350,7 +350,7 @@ Show
   SetBorderColor    128 179 254
   PlayEffect        Cyan
   MinimapIcon       0 Cyan Star
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
 
 # Items with an enchantment get a green border, a persistent green item beam,
 # and a large green diamond minimap icon.
@@ -401,7 +401,7 @@ Show
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       0 White Cross
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
 
 # Watchstones and voidstones.
 Show
@@ -409,14 +409,14 @@ Show
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       0 White Circle
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
 
 Show
   BaseType          "Ivory Watchstone"
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       0 White Circle
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_6veryvaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
 
 # Hide all common base types matching the following criteria:
 #
@@ -491,7 +491,7 @@ Show
   SetBorderColor    254 128 222 255
   PlayEffect        Pink
   MinimapIcon       0 Pink Raindrop
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
 
 # Shaper calls out valuable orbs for you.
 # https://pathofexile.gamepedia.com/Item_filter_guide#Actions
@@ -540,7 +540,7 @@ Show
 Show
   Class             Currency
   BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Eldritch Orb of Annulment" "Annulment Shard" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Veiled Chaos Orb" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Oil Extractor" "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Orb of Fusing" "Scouting Report" "Surveyor's Compass" "Greater Eldritch Ember" "Grand Eldritch Ember" "Exceptional Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Exceptional Eldritch Ichor" "Astragali" "Burial Medallion" "Exotic Coinage" "Scrap Metal"
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_2currency.mp3"
   Continue
 
 # Large minimap icons, persistent yellow item beams, and yellow outlines for
@@ -583,7 +583,7 @@ Show
   SetBorderColor    170 158 120 150
   PlayEffect        Brown Temp
   MinimapIcon       2 Yellow Circle
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_2currency.mp3"
 
 # Labyrinth items.
 Show
@@ -591,7 +591,7 @@ Show
   SetBorderColor    122 219 137 255
   PlayEffect        Green
   MinimapIcon       0 Green Star
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_2currency.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_2currency.mp3"
 
 # Quest items get a persistent item beam in addition to their default minimap
 # icon and bright green label colour.
@@ -605,7 +605,7 @@ Show
   SetBorderColor    27 162 155
   PlayEffect        Green
   MinimapIcon       0 Green Hexagon
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
 
 # Alternate quality gems.
 Show
@@ -614,7 +614,7 @@ Show
   SetBorderColor    27 162 155
   PlayEffect        Green
   MinimapIcon       0 Green Hexagon
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
 
 # Vaal skill gems.
 Show
@@ -623,7 +623,7 @@ Show
   SetBorderColor    255 10 10 180
   PlayEffect        Green Temp
   MinimapIcon       2 Green Pentagon
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
 
 # Gemcutter's Prism vendor recipe: selling a bunch of these that total in 40%
 # quality to a vendor gets you one Gemcutter's Prism.
@@ -633,7 +633,7 @@ Show
   SetBorderColor    150 150 150 255
   PlayEffect        Green
   MinimapIcon       2 Green Hexagon
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_12leveling.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
 
 # Rare items get a brief item beam on drop.
 Show
@@ -648,7 +648,7 @@ Show
   SetBorderColor    210 0 60
   PlayEffect        Red
   MinimapIcon       0 Red Pentagon
-  CustomAlertSoundOptional  "AmbientImpactItemFilterSounds/BexBloopers_1maybevaluable.mp3"
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
 
 # Always show these items.
 Show
