@@ -20,6 +20,10 @@ manually.
 You can download either a development snapshot or one of the tagged releases if
 you prefer the tedious route or don't care about updating.
 
+## Finding the item filter folder
+
+![A screenshot of the Path of Exile options window with the item filter open button hovered.](/AmbientImpactItemFilter/images/options_item_filter_folder.jpg)
+
 ----
 
 # Sound files
