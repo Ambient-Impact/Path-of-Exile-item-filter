@@ -22,6 +22,10 @@ you prefer the tedious route or don't care about updating.
 
 ## Finding the item filter folder
 
+While in-game, open the *Options* window and go to the *Game* tab. Next to the
+drop down of installed item filters you'll find a button to open the item filter
+folder:
+
 ![A screenshot of the Path of Exile options window with the item filter open button hovered.](/AmbientImpactItemFilter/images/options_item_filter_folder.jpg)
 
 ----
