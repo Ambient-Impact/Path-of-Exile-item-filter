@@ -28,7 +28,13 @@ you prefer the tedious route or don't care about updating.
 
 # Sound files
 
-If you're here looking for the sound files, they're found in the [AmbientImpactItemFilter/sounds](/AmbientImpactItemFilter/sounds) directory.
+The optional sound files are found in the
+[AmbientImpactItemFilter/sounds](/AmbientImpactItemFilter/sounds) folder. Note
+that you must place the sound files in that exact folder path relative to your
+item filter folder for the game to load the sounds. This means that inside of
+[your item filter folder](#finding-the-item-filter-folder) there must be a
+`AmbientImpactItemFilter` folder, and within that folder there must be a
+`sounds` folder containing the sound files.
 
 ----
 
