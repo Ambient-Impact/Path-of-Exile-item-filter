@@ -40,6 +40,6 @@ item filter folder for the game to load the sounds. This means that inside of
 
 # Screenshots
 
-![A screenshot of Path of Exile demonstrating the item filter.](/AmbientImpactItemFilter/screenshot1.jpg)
+![A screenshot of Path of Exile demonstrating the item filter.](/AmbientImpactItemFilter/images/screenshot1.jpg)
 
-![Another screenshot of Path of Exile demonstrating the item filter.](/AmbientImpactItemFilter/screenshot2.jpg)
+![Another screenshot of Path of Exile demonstrating the item filter.](/AmbientImpactItemFilter/images/screenshot2.jpg)
