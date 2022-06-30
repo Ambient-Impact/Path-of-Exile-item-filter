@@ -2,6 +2,26 @@ This is my custom item filter for [Path of Exile](https://www.pathofexile.com/).
 
 ----
 
+# Installation
+
+## Following the filters for automatic updates
+
+The recommended way to install these is logging into your account on [the Path
+of Exile website](https://www.pathofexile.com) and then [clicking *Follow* on
+one or more filters on my
+profile](https://www.pathofexile.com/account/view-profile/AmbientImpact/item-filters),
+which will cause the game to automatically download and update the item filters
+next time it's started or restarted. Once you've done that, you can optionally
+[download and install the sound files](#sound-files) which must be done
+manually.
+
+## Manual download
+
+You can download either a development snapshot or one of the tagged releases if
+you prefer the tedious route or don't care about updating.
+
+----
+
 # Sound files
 
 If you're here looking for the sound files, they're found in the [AmbientImpactItemFilter/sounds](/AmbientImpactItemFilter/sounds) directory.
