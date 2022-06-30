@@ -2,6 +2,12 @@ This is my custom item filter for [Path of Exile](https://www.pathofexile.com/).
 
 ----
 
+# Sound files
+
+If you're here looking for the sound files, they're found in the [AmbientImpactItemFilter/sounds](/AmbientImpactItemFilter/sounds) directory.
+
+----
+
 # Screenshots
 
 ![A screenshot of Path of Exile demonstrating the item filter.](/AmbientImpactItemFilter/screenshot1.jpg)
