@@ -505,7 +505,7 @@ Show
   PlayAlertSound  ShBlessed   300
   Continue
 Show
-  BaseType        "Chaos Orb" "Eldritch Chaos Orb" "Tainted Chaos Orb"
+  BaseType        "Chaos Orb" "Eldritch Chaos Orb" "Tainted Chaos Orb" "Veiled Chaos Orb"
   PlayAlertSound  ShChaos     300
   Continue
 Show
@@ -539,7 +539,7 @@ Show
 # gem.
 Show
   Class             Currency
-  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Eldritch Orb of Annulment" "Annulment Shard" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Veiled Chaos Orb" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Oil Extractor" "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Scouting Report" "Surveyor's Compass" "Greater Eldritch Ember" "Grand Eldritch Ember" "Exceptional Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Exceptional Eldritch Ichor" "Astragali" "Burial Medallion" "Exotic Coinage" "Scrap Metal" "Primal Crystallised Lifeforce" "Sacred Crystallised Lifeforce" "Vivid Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+  BaseType          Essence "Remnant of Corruption" "Gemcutter's Prism" "Orb of Annulment" "Eldritch Orb of Annulment" "Annulment Shard" Sextant "Jeweller's Orb" "Orb of Chance" "Cartographer's Chisel" "Orb of Regret" "Orb of Scouring" "Chaos Shard" "Exalted Shard" "Regal Shard" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Mirror Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Perandus Coin" Oil "Oil Extractor" "Awakener's Orb" "Bestiary Orb" "Imprinted Bestiary Orb" "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence" Fossil Resonator Catalyst "Delirium Orb" "Facetor's Lens" "Rogue's Marker" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Scouting Report" "Surveyor's Compass" "Greater Eldritch Ember" "Grand Eldritch Ember" "Exceptional Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Exceptional Eldritch Ichor" "Astragali" "Burial Medallion" "Exotic Coinage" "Scrap Metal" "Primal Crystallised Lifeforce" "Sacred Crystallised Lifeforce" "Vivid Crystallised Lifeforce" "Wild Crystallised Lifeforce"
   CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_2currency.mp3"
   Continue
 
