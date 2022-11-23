@@ -386,9 +386,30 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Circle
 
-# Scarabs.
+# Scarabs. Note that there doesn't seem to be a simple way to differentiate the
+# different tiers by using "Rusted Scarab" for example, as it has to be the
+# full string name of the scarab, so "Rusted Breach Scarab", "Rusted Abyss
+# Scarab", etc., so instead we just specify a partial BaseType and limit it to
+# the item class of "Map Fragments".
+#
+# @todo Can we spell out each scarab name explicitly just to be sure?
+#
+# @see https://www.poewiki.net/wiki/Scarab
 Show
-  BaseType        Scarab
+  BaseType        Rusted
+  Class           "Map Fragments"
+  SetBorderColor  255 200 0 150
+  PlayEffect      Yellow Temp
+  MinimapIcon     2 Yellow Cross
+Show
+  BaseType        Polished
+  Class           "Map Fragments"
+  SetBorderColor  255 200 0 180
+  PlayEffect      Yellow Temp
+  MinimapIcon     1 Yellow Cross
+Show
+  BaseType        Gilded
+  Class           "Map Fragments"
   SetBorderColor  255 200 0
   PlayEffect      Yellow
   MinimapIcon     0 Yellow Cross
