@@ -266,6 +266,16 @@ Show
   Corrupted       False
   PlayEffect      White Temp
 
+# Base type to try chancing The Squire.
+Show
+  BaseType        "Elegant Round Shield"
+  BaseDefencePercentile == 100
+  Rarity          Normal Magic Rare
+  Corrupted       False
+  SetBorderColor  100 100 100 255
+  PlayEffect      White
+  MinimapIcon     0 White UpsideDownHouse
+
 # Jewellery base types that have meh or low value implicits are hidden,
 # provided they're rare or lower rarity.
 Hide
