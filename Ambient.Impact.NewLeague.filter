@@ -420,13 +420,13 @@ Show
 Show
   BaseType        Rusted
   Class           "Map Fragments"
-  SetBorderColor  255 200 0 150
+  SetBorderColor  255 200 0 180
   PlayEffect      Yellow Temp
   MinimapIcon     2 Yellow Cross
 Show
   BaseType        Polished
   Class           "Map Fragments"
-  SetBorderColor  255 200 0 180
+  SetBorderColor  255 200 0 230
   PlayEffect      Yellow Temp
   MinimapIcon     1 Yellow Cross
 Show
@@ -435,6 +435,16 @@ Show
   SetBorderColor  255 200 0
   PlayEffect      Yellow
   MinimapIcon     0 Yellow Cross
+Show
+  BaseType            Winged
+  Class               "Map Fragments"
+  SetBorderColor      255 200 0
+  # Border colour at 30% brightness.
+  SetBackgroundColor  76 59 0
+  # Full brightness for emphasis. Default is 200 200 200.
+  SetTextColor        255 255 255
+  PlayEffect          Yellow
+  MinimapIcon         0 Yellow Cross
 
 # All maps, map fragments, and miscellaneous map items (e.g. Maven's
 # Invitations) get persistent item beams, a white border, and a large minimap
