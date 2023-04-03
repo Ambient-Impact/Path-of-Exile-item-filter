@@ -425,6 +425,16 @@ Show
   SetBorderColor  255 200 0
   PlayEffect      Yellow
   MinimapIcon     0 Yellow Cross
+Show
+  BaseType            Winged
+  Class               "Map Fragments"
+  SetBorderColor      255 200 0
+  # Border colour at 30% brightness.
+  SetBackgroundColor  76 59 0
+  # Full brightness for emphasis. Default is 200 200 200.
+  SetTextColor        255 255 255
+  PlayEffect          Yellow
+  MinimapIcon         0 Yellow Cross
 
 # All maps, map fragments, and miscellaneous map items (e.g. Maven's
 # Invitations) get persistent item beams, a white border, and a large minimap
