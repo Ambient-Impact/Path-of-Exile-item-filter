@@ -450,7 +450,7 @@ Show
 # Invitations) get persistent item beams, a white border, and a large minimap
 # icon. This needs to be before the rare recipe rules to take precedence.
 Show
-  Class             Maps "Map Fragments" "Misc Map Items" "Memory"
+  Class             Maps "Map Fragments" "Misc Map Items" "Memory" "Breachstone" "Vault Key"
   SetBorderColor    255 255 255 255
   PlayEffect        White
   MinimapIcon       0 White Cross
