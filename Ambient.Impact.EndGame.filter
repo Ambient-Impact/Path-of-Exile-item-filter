@@ -65,6 +65,17 @@ Show
   PlayEffect      Red Temp
   MinimapIcon     2 Red Diamond
 
+# Immortal Syndicate signature mods.
+#
+# Note that this doesn't include "Brinerot" since that's in the Warbands rule.
+#
+# @see https://www.poewiki.net/wiki/List_of_Immortal_Syndicate_members
+Show
+  HasExplicitMod  "of Aisling" "of Cameria" "Catarina's" "Elreon's" "Gravicius'" "Haku's" "of Hillock" "It's" "of Janus" "Jorgin's" "Korell's" "Leo's" "of Riker" "Rin's" "Tora's" "Vagan's" "Vorici's"
+  SetBorderColor  255 10 10 150
+  PlayEffect      Red Temp
+  MinimapIcon     2 Red Diamond
+
 # Items with Bestiary Aspect skills get red borders, persistent red item beams,
 # and large red minimap icons. See:
 # https://pathofexile.gamepedia.com/Aspect
@@ -509,7 +520,7 @@ Show
 # @todo Should this have an AreaLevel condition, like >=68 ?
 Hide
   Class         Card
-  BaseType      "The Carrion Crow" "The Inoculated" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "The Metalsmith's Gift" "The Scholar" "Struck by Lightning" "Thunderous Skies"
+  BaseType      "The Carrion Crow" "The Inoculated" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "The Metalsmith's Gift" "The Lover" "The Scholar" "Struck by Lightning" "Thunderous Skies"
 
 # Divination cards get item beams and minimap icons.
 Show
