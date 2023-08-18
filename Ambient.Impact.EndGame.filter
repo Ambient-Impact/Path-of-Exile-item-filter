@@ -356,6 +356,14 @@ Show
   MinimapIcon       0 Red Star
   CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
 
+# Forbidden Sanctum stuff.
+Show
+  Class             "Sanctum Research" "Relic"
+  SetBorderColor    210 0 60
+  PlayEffect        Red
+  MinimapIcon       0 Red Star
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
+
 # Expedition Logbooks.
 Show
   Class             "Expedition Logbooks"
