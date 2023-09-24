@@ -277,6 +277,17 @@ Show
   Corrupted       False
   PlayEffect      White Temp
 
+# Used for The Goddess Scorned vendor recipe.
+#
+# @see https://www.poewiki.net/wiki/The_Goddess_Scorned
+Show
+  BaseType        "Elegant Sword"
+  Rarity          Normal Magic Rare
+  Corrupted       False
+  SetBorderColor  100 100 100 255
+  PlayEffect      White
+  MinimapIcon     0 White UpsideDownHouse
+
 # Jewellery base types that have meh or low value implicits are hidden,
 # provided they're rare or lower rarity.
 Hide
