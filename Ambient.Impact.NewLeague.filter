@@ -3,8 +3,11 @@ Show
   SetFontSize     38
   Continue
 
-# Harbinger unique item pieces get the unique persistent beams and map icons,
-# with a border matching the unique text colour to make them stand out.
+# Item pieces.
+#
+# These are currently Harbinger unique item pieces and Vaal Aspect pieces.
+#
+# @see https://www.poewiki.net/wiki/Item_piece
 Show
   Class             Piece
   PlayEffect        Brown
