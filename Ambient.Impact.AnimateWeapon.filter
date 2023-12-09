@@ -662,10 +662,10 @@ Show
   MinimapIcon       0 Green Hexagon
   CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
 
-# Alternate quality gems.
+# Transfigured gems.
 Show
   Class             Gems
-  AlternateQuality  True
+  TransfiguredGem   True
   SetBorderColor    27 162 155
   PlayEffect        Green
   MinimapIcon       0 Green Hexagon
