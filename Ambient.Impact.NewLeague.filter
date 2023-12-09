@@ -160,6 +160,7 @@ Show
   Sockets         6
   SetBorderColor  255 255 255 255
   PlayEffect      White Temp
+  MinimapIcon     1 White Moon
 
 # Highlight tri-colour linked items. These can be sold for a Chromatic Orb.
 Show
@@ -170,6 +171,7 @@ Show
   Width           <= 2
   Height          <= 3
   AreaLevel       < 68
+  MinimapIcon     2 White Moon
 Show
   SocketGroup     RGB
   SetBorderColor  100 100 100 255
@@ -179,13 +181,15 @@ Show
   Width           1
   Height          3
   AreaLevel       >= 68
+  MinimapIcon     2 White Moon
 
 # Highlight 5-links in case it's a worthwhile one.
 Show
   LinkedSockets   >= 5
   Corrupted       False
   SetBorderColor  100 100 100 255
-  PlayEffect      White Temp
+  PlayEffect      Grey Temp
+  MinimapIcon     1 Grey Moon
 
 # Cartographer's Chisel recipe. A 20% quality hammer plus a map sold to a vendor
 # gives you a chisel.
