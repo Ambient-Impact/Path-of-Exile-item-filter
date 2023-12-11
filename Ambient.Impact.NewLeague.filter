@@ -472,7 +472,7 @@ Show
   MinimapIcon       0 White Cross
   CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
 
-# Watchstones and voidstones.
+# Voidstones.
 Show
   Class             "Atlas Upgrade Item"
   SetBorderColor    255 255 255 255
