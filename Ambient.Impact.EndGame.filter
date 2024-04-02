@@ -491,7 +491,7 @@ Show
   MinimapIcon         0 White Cross
   CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
 Show
-  BaseType            "Fragment of Shape" "Fragment of Emptiness"
+  BaseType            "Fragment of Shape" "Fragment of Emptiness" "Awakening Fragment" "Blazing Fragment" "Cosmic Fragment" "Decaying Fragment" "Devouring Fragment" "Reality Fragment" "Synthesising Fragment"
   SetBorderColor      255 255 255
   SetBackgroundColor  80 80 80
   SetTextColor        255 255 255
