@@ -424,43 +424,44 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Circle
 
-# Scarabs. Note that there doesn't seem to be a simple way to differentiate the
-# different tiers by using "Rusted Scarab" for example, as it has to be the
-# full string name of the scarab, so "Rusted Breach Scarab", "Rusted Abyss
-# Scarab", etc., so instead we just specify a partial BaseType and limit it to
-# the item class of "Map Fragments".
-#
-# @todo Can we spell out each scarab name explicitly just to be sure?
-#
-# @see https://www.poewiki.net/wiki/Scarab
 Show
-  BaseType        Rusted
-  Class           "Map Fragments"
-  SetBorderColor  255 200 0 180
-  PlayEffect      Yellow Temp
-  MinimapIcon     2 Yellow Cross
-Show
-  BaseType        Polished
+  BaseType        Scarab
   Class           "Map Fragments"
   SetBorderColor  255 200 0 230
   PlayEffect      Yellow Temp
   MinimapIcon     1 Yellow Cross
-Show
-  BaseType        Gilded
-  Class           "Map Fragments"
-  SetBorderColor  255 200 0
-  PlayEffect      Yellow
-  MinimapIcon     0 Yellow Cross
-Show
-  BaseType            Winged
-  Class               "Map Fragments"
-  SetBorderColor      255 200 0
-  # Border colour at 30% brightness.
-  SetBackgroundColor  76 59 0
-  # Full brightness for emphasis. Default is 200 200 200.
-  SetTextColor        255 255 255
-  PlayEffect          Yellow
-  MinimapIcon         0 Yellow Cross
+# Note that these are pre-3.24 and disabled now. Will likely re-use the colours,
+# borders, etc. for when I can rework these with the new scarabs to split them
+# into rough rarity tiers.
+#
+# Show
+#   BaseType        Rusted
+#   Class           "Map Fragments"
+#   SetBorderColor  255 200 0 180
+#   PlayEffect      Yellow Temp
+#   MinimapIcon     2 Yellow Cross
+# Show
+#   BaseType        Polished
+#   Class           "Map Fragments"
+#   SetBorderColor  255 200 0 230
+#   PlayEffect      Yellow Temp
+#   MinimapIcon     1 Yellow Cross
+# Show
+#   BaseType        Gilded
+#   Class           "Map Fragments"
+#   SetBorderColor  255 200 0
+#   PlayEffect      Yellow
+#   MinimapIcon     0 Yellow Cross
+# Show
+#   BaseType            Winged
+#   Class               "Map Fragments"
+#   SetBorderColor      255 200 0
+#   # Border colour at 30% brightness.
+#   SetBackgroundColor  76 59 0
+#   # Full brightness for emphasis. Default is 200 200 200.
+#   SetTextColor        255 255 255
+#   PlayEffect          Yellow
+#   MinimapIcon         0 Yellow Cross
 
 # Maps.
 #
