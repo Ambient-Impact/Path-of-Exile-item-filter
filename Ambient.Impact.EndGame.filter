@@ -451,15 +451,60 @@ Show
   PlayEffect          Yellow
   MinimapIcon         0 Yellow Cross
 
-# All maps, map fragments, and miscellaneous map items (e.g. Maven's
-# Invitations) get persistent item beams, a white border, and a large minimap
-# icon. This needs to be before the rare recipe rules to take precedence.
+# Maps.
+#
+# This needs to be before the rare recipe rules to take precedence.
 Show
-  Class             Maps "Map Fragments" "Misc Map Items" "Memory" "Breachstone" "Vault Key"
-  SetBorderColor    255 255 255 255
-  PlayEffect        White
-  MinimapIcon       0 White Cross
-  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
+  Class               Maps
+  SetBorderColor      255 255 255 200
+  # SetBackgroundColor  50 50 50
+  # Not using SetTextColor so the default rarity colours are displayed.
+  PlayEffect          White
+  MinimapIcon         1 White Cross
+  CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
+
+# Map fragments and various map-like items split into rough rarity tiers.
+#
+# Note: "Misc Map Items" are various invitations and Chronicle of Atzoatl.
+#
+# @see https://www.poewiki.net/wiki/Miscellaneous_map_item
+#
+# This needs to be before the rare recipe rules to take precedence.
+
+# High tier.
+Show
+  Class               "Memory" "Breachstone" "Vault Key"
+  SetBorderColor      255 255 255
+  SetBackgroundColor  80 80 80
+  SetTextColor        255 255 255
+  PlayEffect          White
+  MinimapIcon         0 White Cross
+  CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
+Show
+  BaseType            "Fragment of Shape" "Fragment of Emptiness"
+  SetBorderColor      255 255 255
+  SetBackgroundColor  80 80 80
+  SetTextColor        255 255 255
+  PlayEffect          White
+  MinimapIcon         0 White Cross
+  CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
+# Mid tier.
+Show
+  BaseType "Dedication to the Goddess" "Gift to the Goddess" "Tribute to the Goddess" "Sacred Blossom" "The Maven's Writ" "Mortal Rage" "Fragment of Knowledge" "Fragment of Terror"
+  SetBorderColor      255 255 255 180
+  SetBackgroundColor  50 50 50
+  SetTextColor        220 220 220
+  PlayEffect          White
+  MinimapIcon         1 White Cross
+  CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
+# Low tier or generic.
+Show
+  Class             "Map Fragments" "Misc Map Items"
+  SetBorderColor    255 255 255 150
+  # Not using SetTextColor so the default rarity colours are displayed.
+  PlayEffect        White Temp
+  MinimapIcon       2 White Cross
+  CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
 
 # Voidstones.
 Show
