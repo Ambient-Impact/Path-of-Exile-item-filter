@@ -413,53 +413,42 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Circle
 
-# Scarabs. Note that there doesn't seem to be a simple way to differentiate the
-# different tiers by using "Rusted Scarab" for example, as it has to be the
-# full string name of the scarab, so "Rusted Breach Scarab", "Rusted Abyss
-# Scarab", etc., so instead we just specify a partial BaseType and limit it to
-# the item class of "Map Fragments".
+# Scarabs based on rough rarities, grouped from most to least rare.
 #
-# @todo Can we spell out each scarab name explicitly just to be sure?
+# Note that there doesn't seem to be a simple way to differentiate the different
+# rarities so we have to spell each one out.
 #
 # @see https://www.poewiki.net/wiki/Scarab
 Show
-  BaseType        Scarab
-  Class           "Map Fragments"
+  BaseType            "Ambush Scarab of Containment" "Ambush Scarab of Discernment" "Bestiary Scarab of the Shadowed Crow" "Betrayal Scarab of Perpetuation" "Beyond Scarab of the Invasion" "Blight Scarab of Blooming" "Breach Scarab of Snares" "Breach Scarab of the Dreamer" "Cartography Scarab of Duplication" "Delirium Scarab of Delusions" "Divination Scarab of Completion" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Expedition Scarab of Archaeology" "Harbinger Scarab of Warhoards" "Harvest Scarab of Cornucopia" "Incursion Scarab of Timelines" "Influencing Scarab of Conversion" "Legion Scarab of Eternal Conflict" "Reliquary Scarab of Vision" "Ultimatum Scarab of Catalysing" "Ultimatum Scarab of Inscription" "Scarab of Stability" "Horned Scarab"
+  SetBorderColor      255 200 0
+  # Border colour at 30% brightness.
+  SetBackgroundColor  76 59 0
+  # Full brightness for emphasis. Default is 200 200 200.
+  SetTextColor        255 255 255
+  PlayEffect          Yellow
+  MinimapIcon         0 Yellow Cross
+Show
+  BaseType        "Abyss Scarab of Edifice" "Abyss Scarab of Emptiness" "Ambush Scarab of Potency" "Anarchy Scarab of Partnership" "Bestiary Scarab of Duplicating" "Betrayal Scarab of Reinforcements" "Beyond Scarab of Corruption" "Beyond Scarab of Resurgence" "Blight Scarab of Oils" "Breach Scarab of Lordship" "Cartography Scarab of Ascension" "Cartography Scarab of Singularity" "Delirium Scarab of Neuroses" "Divination Scarab of Curation" "Domination Scarab of Teachings" "Essence Scarab of Ascent" "Expedition Scarab of the Skald" "Harvest Scarab of Doubling" "Incursion Scarab of Champions" "Legion Scarab of Officers" "Legion Scarab of Command" "Legion Scarab of The Sekhema" "Ritual Scarab of Abundance" "Sulphite Scarab of Fumes" "Torment Scarab of Release" "Ultimatum Scarab of Dueling" "Scarab of Hunted Traitors"
+  SetBorderColor  255 200 0
+  PlayEffect      Yellow
+  MinimapIcon     0 Yellow Cross
+Show
+  BaseType        "Abyss Scarab of Multitudes" "Ambush Scarab of Hidden Compartments" "Anarchy Scarab of Gigantification" "Bestiary Scarab of the Herd" "Betrayal Scarab of Intelligence" "Beyond Scarab of Haemophilia" "Blight Scarab of Bounty" "Breach Scarab of Splintering" "Cartography Scarab of Corruption" "Delirium Scarab of Mania" "Delirium Scarab of Paranoia" "Domination Scarab of Abnormality" "Essence Scarab of Stability" "Expedition Scarab of Runefinding" "Expedition Scarab of Verisium Powder" "Harbinger Scarab of Discernment" "Harbinger Scarab of Regency" "Incursion Scarab of Invasion" "Influencing Scarab of Hordes" "Sulphite Scarab of Greed" "Torment Scarab of Peculiarity" "Ultimatum Scarab of Bribing"
   SetBorderColor  255 200 0 230
   PlayEffect      Yellow Temp
   MinimapIcon     1 Yellow Cross
-# Note that these are pre-3.24 and disabled now. Will likely re-use the colours,
-# borders, etc. for when I can rework these with the new scarabs to split them
-# into rough rarity tiers.
-#
-# Show
-#   BaseType        Rusted
-#   Class           "Map Fragments"
-#   SetBorderColor  255 200 0 180
-#   PlayEffect      Yellow Temp
-#   MinimapIcon     2 Yellow Cross
-# Show
-#   BaseType        Polished
-#   Class           "Map Fragments"
-#   SetBorderColor  255 200 0 230
-#   PlayEffect      Yellow Temp
-#   MinimapIcon     1 Yellow Cross
-# Show
-#   BaseType        Gilded
-#   Class           "Map Fragments"
-#   SetBorderColor  255 200 0
-#   PlayEffect      Yellow
-#   MinimapIcon     0 Yellow Cross
-# Show
-#   BaseType            Winged
-#   Class               "Map Fragments"
-#   SetBorderColor      255 200 0
-#   # Border colour at 30% brightness.
-#   SetBackgroundColor  76 59 0
-#   # Full brightness for emphasis. Default is 200 200 200.
-#   SetTextColor        255 255 255
-#   PlayEffect          Yellow
-#   MinimapIcon         0 Yellow Cross
+# Catch-all for the remaining scarabs, which should just be the most common
+# ones. Note that this must be after the other rules so it doesn't take
+# precendence over the above rules.
+Show
+  BaseType        Scarab
+  # Just to be sure we're not accidentally targetting any future base type that
+  # has "Scarab" in the name that isn't a map fragment.
+  Class           "Map Fragments"
+  SetBorderColor  255 200 0 180
+  PlayEffect      Yellow Temp
+  MinimapIcon     2 Yellow Cross
 
 # Maps.
 #
