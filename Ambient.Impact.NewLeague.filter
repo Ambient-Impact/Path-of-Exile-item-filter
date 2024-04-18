@@ -138,6 +138,22 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Diamond
 
+# Items with corrupted mods.
+#
+# @see https://www.poewiki.net/wiki/Corrupted#Corrupted_implicit_modifiers
+#
+# @todo List out specific mods that are more valuable?
+Show
+  CorruptedMods   1 # One mod.
+  SetBorderColor  255 10 10 150
+  PlayEffect      Red Temp
+  MinimapIcon     1 Red Triangle
+Show
+  CorruptedMods   > 1 # Two or more mods.
+  SetBorderColor  255 10 10
+  PlayEffect      Red
+  MinimapIcon     0 Red Triangle
+
 # Highlight flasks that might be worthwhile for the Glassblower's Bauble vendor
 # recipe.
 Show
