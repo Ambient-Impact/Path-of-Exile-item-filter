@@ -466,6 +466,18 @@ Show
   PlayEffect      Yellow Temp
   MinimapIcon     2 Yellow Cross
 
+# Maps of tier 17 (and above if they ever add any).
+#
+# These are a special, harder, and much less common type of map. The purple
+# effects chosen are intended to match the purple map art they have.
+Show
+  Class           Maps
+  MapTier         >= 17
+  SetBorderColor  185 96 214
+  PlayEffect      Purple
+  MinimapIcon     0 Purple Cross
+  CustomAlertSoundOptional "AmbientImpactItemFilter/sounds/BexBloopers_6veryvaluable.mp3"
+
 # Maps.
 #
 # This needs to be before the rare recipe rules to take precedence.
