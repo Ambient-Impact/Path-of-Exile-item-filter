@@ -722,12 +722,24 @@ Show
   Class             "Quest Items"
   PlayEffect        Green
 
-# Add a border, persistent item beams, and sound effects for rare skill gems.
+# Awakened gems go all out.
 Show
-  BaseType          Portal Empower Enlighten Enhance Awakened
+  BaseType            Awakened
+  SetBorderColor      27 162 155
+  # Border colour at 20% brightness.
+  SetBackgroundColor  8 51 49
+  # Border colour with brightness increased from 64% to 75%.
+  SetTextColor        32 191 183
+  PlayEffect          Green
+  MinimapIcon         0 Green Hexagon
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
+
+# Rare gems.
+Show
+  BaseType          Portal Empower Enlighten Enhance
   SetBorderColor    27 162 155
   PlayEffect        Green
-  MinimapIcon       0 Green Hexagon
+  MinimapIcon       1 Green Hexagon
   CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_12leveling.mp3"
 
 # Transfigured gems.
