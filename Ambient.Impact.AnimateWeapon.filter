@@ -335,9 +335,9 @@ Show
   PlayEffect      White
   MinimapIcon     0 White Kite
 
-# Utility flasks.
+# Utility flasks and tinctures.
 Show
-  Class           "Utility Flasks"
+  Class           "Utility Flasks" "Tincture"
   SetBorderColor  30 144 255 180
   PlayEffect      Blue Temp
   MinimapIcon     2 Blue Circle
