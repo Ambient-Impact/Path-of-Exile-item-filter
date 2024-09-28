@@ -429,6 +429,19 @@ Show
   PlayEffect      Red
   MinimapIcon     0 Red Circle
 
+# Itemized corpses.
+#
+# Note that the wiki lists the item class as "Corpse item" but the game says the
+# "Corpse item" item class doesn't exist. "Corpse" does seem to exist.
+#
+# @see https://www.poewiki.net/wiki/Corpse_item
+Show
+  Class             "Corpse"
+  SetBorderColor    210 0 60
+  PlayEffect        Red
+  MinimapIcon       0 Red Star
+  CustomAlertSoundOptional  "AmbientImpactItemFilter/sounds/BexBloopers_1maybevaluable.mp3"
+
 # Scarabs based on rough rarities, grouped from most to least rare.
 #
 # Note that there doesn't seem to be a simple way to differentiate the different
