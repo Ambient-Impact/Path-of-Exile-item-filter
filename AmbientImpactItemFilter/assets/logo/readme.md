@@ -1,0 +1,1 @@
+Logo traced using [Inkscape](https://inkscape.org/) from [this SteamGridDB logo](https://www.steamgriddb.com/logo/101629). The Path of Exile logo is property of [Grinding Gear Games](https://www.grindinggear.com/) and not covered by the license of this repository.
